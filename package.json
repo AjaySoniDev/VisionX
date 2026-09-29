@@ -1,0 +1,11 @@
+{
+  "name": "visionx-sih-core-evidence",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static VisionX SIH26215 core-evidence site",
+  "scripts": {
+    "dev": "npx serve . -l 3000",
+    "check": "node scripts/check.mjs"
+  },
+  "engines": {"node": ">=20"}
+}
