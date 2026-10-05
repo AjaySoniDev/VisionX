@@ -1,0 +1,190 @@
+{
+  "releaseVersion": "0.4.0",
+  "sourceSha256": "f2dac1f0de9a06c9ea8b712fcb5c59ffabbfa2c7a440c078fbc8c47cbeac6257",
+  "sourceFiles": {
+    "__init__.py": "8fb97b684cb43bc847c283797f15c52a564634fc305d332adbb224500cd3335c",
+    "__main__.py": "6f3ace6e1022b3fcf3b7a4a7e6d7341997fc4f159d055d479b5c758f9c5d9554",
+    "algorithms/__init__.py": "500ac95b984817111fd6fef04fbeffd272c6c7f747802e8404a27ee08b558953",
+    "algorithms/decision.py": "0f47b5af2fe53aad0a4fc0ddbd70bc6c87b64e763a696461e08c0d3976d1a06d",
+    "algorithms/junction.py": "552a6c2d9cd0989dc0a6b491569ee7feaab6f70eb0f918751f4a4759bea3f1c5",
+    "algorithms/scoring.py": "a8cfe29d65ce64adca94c40372de6cecb0774ac001148c780cc9bae8d3cfc648",
+    "algorithms/segmentation.py": "4cdc941237fa208d7563e7b360c87d84dcc984f2a6c97f15e94c0e99ebf69255",
+    "algorithms/similarity.py": "fbad9dfa78e0606abf51c1efd45c8952e419d07e939537ce8bcc896953826347",
+    "algorithms/turnaround.py": "9cfd291a3520dc98d19893494357a1c95c85e6313cd53d9988cc38db81e9f88e",
+    "cli.py": "b27d63deba3b50a169b53965b8ee0496b70dbcea367f24424ae812b5adf1cac5",
+    "config/__init__.py": "70b1abbc2059a6150a943ae8d0f363f27465336f2bd5a186c5e7416e2ed70021",
+    "config/loader.py": "0b4455d219b184c64753d1200853b5b45ed8e0c6616698ab786b921089b6303a",
+    "config/models.py": "b4707cfba11a1e24554dda4c264136b7bb7efb0aada1c174d42be29133a54865",
+    "core/__init__.py": "cd0a944de4fab9b9c7d99d3e3861ec0d9ea842dfe6cdd6a8e2e6e9632a98c802",
+    "core/enums.py": "b36eb268e24859de19e56cbde1dd44aef9ec71b59681066000dd8c1bd8c46ff6",
+    "core/exceptions.py": "eab72f8177f83e04d17002ab6953046aabc9b7b5972a6af113f04768728940c6",
+    "core/types.py": "6dedc0e1f20b5693cce997689c4b036b2c30830df5d9daaf17230c15f630c2c4",
+    "core/version.py": "de668dda2562f6f1a2fe2284e5c77c051066d5e6a64b289778e6a005433f3c2b",
+    "evaluation/__init__.py": "d47181307ec135216f6c5307c74f4efe29a2f78708af68923a07a996f87bcb32",
+    "evaluation/baselines.py": "eacb32f787516e17cfb644d1c62fdea75c0c15e48ee62044894fdd9c08ebdb68",
+    "evaluation/manifest.py": "a4ec1bb91fad227d303ebdd1b9ad4f2cf6e24f06d5c916d3b13b73ae842822a2",
+    "evaluation/metrics.py": "bda6843e21705f6f7d1dcc78f1d04729156e20b0852a334ab3f77330d55aacb4",
+    "evaluation/runner.py": "922d626e3defc948c01f4adc354a36b5c668bc518b4a13fc096a0b0bf71d3d45",
+    "evaluation/synthetic.py": "95153834acaea5fe9722d739fd9dedcf5171406ae340bca7238582328692b12a",
+    "io/__init__.py": "c2a910ee9d05599eed3e5694e8e1ccf34ab9d843cef118d9dabf1f26c0ea84c9",
+    "io/atomic.py": "d6f57341ed3c67de97923de2e75e0aa83ad32f36f4fae82aa910138f22214dbe",
+    "io/checksums.py": "8aeb7aca9173474c35a779508355ccfbccd5c6ca28bf7ee6ed1f09880a5d88ae",
+    "io/json.py": "59cb55c7d3ef60938a266873a539727cff38a9e4040ae32ef2e37eae40fc7d4d",
+    "io/npz.py": "a1d7c614d0a2164fa14137ea743003b32167e75a98c270ab11797348435c558d",
+    "io/paths.py": "d41cf20c1ff2272ae8d27cbbb8225ec97a17472cdea32400693ab2ae434f855c",
+    "io/schema.py": "b7af71ffdf5ef02250b960f4ac74f189b2f8c4cc25c776ba2bca28c8970e0d7f",
+    "io/video.py": "a8cfbb7e7ab586fe761ac1b9f9112263e32c5dc9c77dced9107ac1c07b71fbd9",
+    "memory/__init__.py": "d21973040aafc3cf2324736ded57b919f93f7a2d4aa16adda3cb7fc97582d75f",
+    "memory/schema.py": "b9a794afec33aa9e53416a4efee49a14d0fee32fb84dd0d72f7c57cb4f4c5375",
+    "memory/store.py": "96f74d9a03c8799270c924cca0be5f5802cc3d666f786707a798bdf5a91448d0",
+    "observability/__init__.py": "1d5da60fffb82990507b19cb91a8bd3a01b6366a5ea25c4943a5c9e995c81fd0",
+    "observability/logging.py": "05cde40d4134b27a98f8cf16f1b5ef622283885e1787db512bf0f93ee4388f7e",
+    "observability/manifest.py": "dcbbc679776100ca2bbb5715e4c6bd88fc972cecabbf72faec7a8732a04c2406",
+    "observability/provenance.py": "96bb97f3b47f9f9802459d63546201a9abeb606170befb7510e018c4845db4c3",
+    "pipeline/__init__.py": "f924f54c9dfd32ee3aab172b8b269620824bad440694d784f2cabb6c8112298c",
+    "pipeline/artifacts.py": "e83f596672cdb73852b9f1033bb71f41f516bff52b8b41cd077a1edaa0d6ad34",
+    "pipeline/runner.py": "ccf4ba9ab24054348ffa218fa1026af95c06e7834b1f96edd5cfbdde73c90a7f",
+    "pipeline/serialization.py": "f3cd30bd49f983584b341f801eb6982b1dc6530a09cabcaca3f688b9a112e5ce",
+    "recognition.py": "5f8e069efd0a251ffb0cfb36c6e7e97dab9c36b5fbeac5dd6b73a0965514c990",
+    "reporting/__init__.py": "b0f240212097d45f75e8554e068096803b43ee918fae1fcb019c1dd25884f9da",
+    "reporting/sanitize.py": "bee5a19a94e2e9053b375c81583c75b2b62ce60b9bcb1209b4995ecd9d583775",
+    "reporting/writers.py": "dff857746b18531e39a1f2623a213f09d0e723176fcf9b612707b8abc2d4afe7",
+    "schemas/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "schemas/benchmark-report.schema.json": "a73d0c2a90bcccd29c81cfd33f947969dd458a1ec53351a27d0eace9f54a39ec",
+    "schemas/route-memory-metadata.schema.json": "03ac0e6bf4f6d094b7251ba22020784cf74768c387e9caa7847914febc5911d4",
+    "schemas/run-summary.schema.json": "83c867c7ddd66d967d15092245d4fec0678a526114d3a9e384bf6365b75a252c",
+    "vision/__init__.py": "dc5b370f79137f1b122b6282d8bc786d848ea671f135b1d15dfb5304ec9f6f5c",
+    "vision/encode.py": "dc666f3a4c1e9f671ff3d42c15012fbd56f14487bc2430b53f0f2862caf11c85",
+    "vision/encoders/__init__.py": "ef0ccc85084a1a242ca0ff544a395e3a8830f4ae6e833be674753146e3103237",
+    "vision/encoders/base.py": "d86b91027143d466457eb25dade25d389eca1ef2b64b3f72fbbb34f041d86be5",
+    "vision/encoders/efficientnet.py": "6ea862606451b4ac5bf974fffb8973bb4ccdabd4e78f162c2c4edc7d8b2691f6",
+    "vision/preprocessing.py": "1254cd9c35b272b03ab4a8043091445190d1386eb8ba53f4f15fdb2a4959bfd4"
+  },
+  "verification": {
+    "generated_at": "2026-10-01T10:14:08.909819+00:00",
+    "pytest": {
+      "tests": 71,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "passed": 71,
+      "suite_elapsed_seconds": 40.251
+    },
+    "python311": {
+      "tests": 69,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 1,
+      "passed": 68,
+      "suite_elapsed_seconds": 12.643
+    },
+    "coverage": {
+      "covered_lines": 1818,
+      "num_statements": 1986,
+      "percent_covered": 88.04262036306235,
+      "percent_covered_display": "88",
+      "missing_lines": 168,
+      "excluded_lines": 4,
+      "percent_statements_covered": 91.54078549848943,
+      "percent_statements_covered_display": "92",
+      "num_branches": 548,
+      "num_partial_branches": 127,
+      "covered_branches": 413,
+      "missing_branches": 135,
+      "percent_branches_covered": 75.36496350364963,
+      "percent_branches_covered_display": "75"
+    },
+    "checks": [
+      {
+        "check": "ruff",
+        "exit_code": 0,
+        "evidence_log": "ruff.log",
+        "record": "Completed successfully by the preceding final verification execution; raw logs retained."
+      },
+      {
+        "check": "format",
+        "exit_code": 0,
+        "evidence_log": "format.log",
+        "record": "Completed successfully by the preceding final verification execution; raw logs retained."
+      },
+      {
+        "check": "mypy",
+        "exit_code": 0,
+        "evidence_log": "mypy.log",
+        "record": "Completed successfully by the preceding final verification execution; raw logs retained."
+      },
+      {
+        "check": "dependencies",
+        "exit_code": 0,
+        "evidence_log": "dependencies.log",
+        "record": "Completed successfully by the preceding final verification execution; raw logs retained."
+      },
+      {
+        "check": "pytest",
+        "exit_code": 0,
+        "evidence_log": "pytest.log",
+        "record": "Completed successfully by the preceding final verification execution; raw logs retained."
+      },
+      {
+        "check": "python311-pytest",
+        "exit_code": 0,
+        "evidence_log": "python311-pytest.log",
+        "record": "Completed successfully by the preceding final verification execution; raw logs retained."
+      },
+      {
+        "check": "python311-mypy",
+        "exit_code": 0,
+        "evidence_log": "python311-mypy.log",
+        "record": "Completed successfully by the preceding final verification execution; raw logs retained."
+      },
+      {
+        "check": "evaluate-notebook04",
+        "exit_code": 0,
+        "evidence_log": "evaluate-notebook04.log",
+        "record": "Completed successfully by the preceding final verification execution; raw logs retained."
+      },
+      {
+        "check": "plot-notebook04",
+        "exit_code": 0,
+        "evidence_log": "plot-notebook04.log",
+        "record": "Completed successfully by the preceding final verification execution; raw logs retained."
+      },
+      {
+        "check": "identity-notebook04",
+        "exit_code": 0,
+        "evidence_log": "identity-notebook04.log",
+        "record": "Completed successfully by the preceding final verification execution; raw logs retained."
+      },
+      {
+        "check": "evaluate-synthetic",
+        "exit_code": 0,
+        "evidence_log": "evaluate-synthetic.log",
+        "record": "Completed successfully by the preceding final verification execution; raw logs retained."
+      },
+      {
+        "check": "plot-synthetic",
+        "exit_code": 0,
+        "evidence_log": "plot-synthetic.log",
+        "record": "Completed successfully by the preceding final verification execution; raw logs retained."
+      },
+      {
+        "check": "identity-synthetic",
+        "exit_code": 0,
+        "evidence_log": "identity-synthetic.log",
+        "record": "Completed successfully by the preceding final verification execution; raw logs retained."
+      },
+      {
+        "check": "documentation",
+        "exit_code": 0,
+        "evidence_log": "documentation.log"
+      },
+      {
+        "check": "build",
+        "exit_code": 0,
+        "evidence_log": "build.log"
+      }
+    ],
+    "source_sha256": "f2dac1f0de9a06c9ea8b712fcb5c59ffabbfa2c7a440c078fbc8c47cbeac6257",
+    "scope": "Actual local Windows verification. Hosted CI jobs are configured, not claimed executed."
+  }
+}
