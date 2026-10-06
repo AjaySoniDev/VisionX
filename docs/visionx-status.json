@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0.0",
+  "reviewed_on": "2026-10-01",
+  "source_presentation_date": "2026-09-30",
+  "project": "VisionX",
+  "core": "VXN-RAMNet",
+  "release_version": "0.4.0",
+  "problem_statement": "SIH26215",
+  "team": "Team Synexis CU-UP",
+  "team_id": "190125",
+  "capabilities": [
+    {
+      "capability": "Offline video / cached-descriptor route core",
+      "status": "Implemented + tested",
+      "category": "core",
+      "boundary": "Completed videos; constrained one-junction/two-branch scope."
+    },
+    {
+      "capability": "Frozen EfficientNetB0 encoder",
+      "status": "Implemented + tested",
+      "category": "core",
+      "boundary": "Actual ImageNet and local-file parity smoke test; no route efficacy result."
+    },
+    {
+      "capability": "Junction/turnaround and branch memory",
+      "status": "Implemented, experimental",
+      "category": "core",
+      "boundary": "Temporal/appearance heuristics and inherited regression anchors."
+    },
+    {
+      "capability": "Known / Uncertain / Unknown",
+      "status": "Implemented, uncalibrated",
+      "category": "core",
+      "boundary": "Explicit abstention and low-quality-graph acceptance guard; no probability/safety claim."
+    },
+    {
+      "capability": "Evaluation and reproducible artifacts",
+      "status": "Implemented + executed",
+      "category": "core",
+      "boundary": "Cached regression and simulated vectors only; physical held-out evaluation missing."
+    },
+    {
+      "capability": "Pi + camera + VL53L0X + Android YOLOv8s/TTS",
+      "status": "Team-reported working",
+      "category": "team_report",
+      "boundary": "Pi/app code and session measurements were not supplied."
+    },
+    {
+      "capability": "Approximately one-hour stream/detection test",
+      "status": "Team-reported",
+      "category": "team_report",
+      "boundary": "Not measured battery life, mobile route latency or route accuracy."
+    },
+    {
+      "capability": "VXN-RAMNet on Android",
+      "status": "Integration in progress",
+      "category": "future",
+      "boundary": "No executable validated mobile route runtime supplied."
+    },
+    {
+      "capability": "Pi-connected IMU and fusion",
+      "status": "Planned",
+      "category": "future",
+      "boundary": "No measured acquisition, calibration or fusion improvement."
+    },
+    {
+      "capability": "Live physical route guidance / freshness policy",
+      "status": "Target / unvalidated",
+      "category": "future",
+      "boundary": "Progress, direction, cue age, stale-speech cancellation and faults remain."
+    },
+    {
+      "capability": "Representative held-out data / user benefit",
+      "status": "Missing / unvalidated",
+      "category": "missing",
+      "boundary": "No representative physical-route, safety, clinical or user study result."
+    }
+  ]
+}

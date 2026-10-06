@@ -1,0 +1,9 @@
+node_modules/
+public/
+validation/
+test-results/
+playwright-report/
+blob-report/
+archive/
+.git/
+.github/

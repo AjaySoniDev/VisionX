@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# Generated static output
+public/
+
+# Verification / browser-test output
+validation/
+test-results/
+playwright-report/
+blob-report/
+
+# Local Vercel state
+.vercel/
+
+# Logs / OS / editor noise
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

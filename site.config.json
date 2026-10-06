@@ -1,0 +1,17 @@
+{
+  "name": "VisionX",
+  "team": "Team Synexis CU-UP",
+  "problemStatement": "SIH26215",
+  "teamId": "190125",
+  "date": "2026-10-01",
+  "canonicalUrl": "https://visionxassistive.vercel.app",
+  "repositoryUrl": "https://github.com/AjaySoniDev/VXN-RAMNet",
+  "releaseVersion": "0.4.0",
+  "demo": {
+    "url": "https://www.youtube.com/watch?v=c-RgSsNwhqw",
+    "title": "VisionX demonstration video",
+    "isPlaceholder": false,
+    "credit": "Project demo link supplied for SIH judging",
+    "note": "Official judging demo destination configured by the project owner. The website redirects /demo to this YouTube video."
+  }
+}

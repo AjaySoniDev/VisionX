@@ -1,0 +1,2 @@
+{"name":"visionx-evidence-site","version":"2.0.0","private":true,"description":"SIH judge-facing VisionX static site with compact verifiable research evidence","type":"module","scripts":{"build":"node scripts/build.mjs && node scripts/check.mjs","dev":"node scripts/build.mjs && node scripts/serve.mjs","check":"node scripts/check.mjs","test":"node --test tests/unit/*.test.mjs","test:e2e":"playwright test","set:demo":"node scripts/set-demo.mjs"},"engines":{"node":">=20.19.0"},"devDependencies":{"@axe-core/playwright":"4.13.0","@playwright/test":"1.63.0"}}
+
