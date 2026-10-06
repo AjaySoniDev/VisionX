@@ -1,0 +1,43 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.14, pytest-9.1.1, pluggy-1.6.0
+rootdir: C:\Users\progr\OneDrive\Desktop\SIH-VisionX\final\VXN-RAMNet
+configfile: pyproject.toml
+testpaths: tests
+plugins: anyio-4.15.1, cov-6.3.0
+collected 71 items
+
+tests\integration\test_evaluation.py .....                               [  7%]
+tests\integration\test_pipeline.py ...                                   [ 11%]
+tests\integration\test_preflight_safety.py .                             [ 12%]
+tests\integration\test_ui.py .                                           [ 14%]
+tests\regression\test_notebook04_baseline.py .                           [ 15%]
+tests\regression\test_score_cache_parity.py ....                         [ 21%]
+tests\unit\test_cli_and_config_io.py ....                                [ 26%]
+tests\unit\test_config.py ....                                           [ 32%]
+tests\unit\test_decision.py ...                                          [ 36%]
+tests\unit\test_evaluation_metrics.py .........                          [ 49%]
+tests\unit\test_memory.py .                                              [ 50%]
+tests\unit\test_npz.py ...                                               [ 54%]
+tests\unit\test_numerical_boundaries.py ...................              [ 81%]
+tests\unit\test_paths.py ...                                             [ 85%]
+tests\unit\test_recognition_guards.py ..                                 [ 88%]
+tests\unit\test_reporting.py .                                           [ 90%]
+tests\unit\test_segmentation.py ..                                       [ 92%]
+tests\unit\test_similarity.py ..                                         [ 95%]
+tests\unit\test_video.py .                                               [ 97%]
+tests\vision\test_encoder.py ..                                          [100%]
+
+============================== warnings summary ===============================
+tests/vision/test_encoder.py: 312 warnings
+  C:\Users\progr\OneDrive\Desktop\SIH-VisionX\.venv\Lib\site-packages\keras\src\backend\tensorflow\core.py:172: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+    return np.array(x)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+- generated xml file: C:\Users\progr\OneDrive\Desktop\SIH-VisionX\final\VXN-RAMNet\evidence\verification\pytest.xml -
+=============================== tests coverage ================================
+______________ coverage: platform win32, python 3.12.14-final-0 _______________
+
+Coverage XML written to file C:\Users\progr\OneDrive\Desktop\SIH-VisionX\final\VXN-RAMNet\evidence\verification\coverage.xml
+Coverage JSON written to file C:\Users\progr\OneDrive\Desktop\SIH-VisionX\final\VXN-RAMNet\evidence\verification\coverage.json
+Required test coverage of 80.0% reached. Total coverage: 88.04%
+====================== 71 passed, 312 warnings in 40.36s ======================

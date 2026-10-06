@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://vxn-ramnet.local/schemas/benchmark-report.schema.json",
+  "type": "object",
+  "required": ["schema_version", "dataset_id", "purpose", "generated_at", "environment", "dataset", "methods", "enrollment", "limitations"],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "purpose": {"enum": ["regression", "synthetic", "held_out"]},
+    "methods": {"type": "object", "minProperties": 1, "additionalProperties": {"type": "object", "required": ["metrics", "classification_timing"]}},
+    "limitations": {"type": "array", "minItems": 1, "items": {"type": "string"}}
+  }
+}

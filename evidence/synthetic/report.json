@@ -1,0 +1,1570 @@
+{
+  "schema_version": "1.0.0",
+  "dataset_id": "synthetic-stress-v1",
+  "purpose": "synthetic",
+  "generated_at": "2026-10-01T10:12:37.028162+00:00",
+  "repeats": 5,
+  "warmups": 1,
+  "evidence_boundary": "Regression and synthetic diagnostics establish reproducible software behavior. They do not establish held-out route accuracy, mobile speed, safe navigation or user benefit.",
+  "environment": {
+    "run_id": "evaluation-synthetic-stress-v1",
+    "created_at": "2026-10-01T10:12:13.329145+00:00",
+    "vxn_ramnet_version": "0.4.0",
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "machine": "ARM64",
+    "process_id": 26816,
+    "dependencies": {
+      "numpy": "2.2.6",
+      "opencv-python-headless": "4.12.0.88",
+      "Pillow": "12.3.0",
+      "pydantic": "2.13.5",
+      "PyYAML": "6.0.3",
+      "tensorflow": "2.20.0"
+    },
+    "source": {
+      "sha256": "f2dac1f0de9a06c9ea8b712fcb5c59ffabbfa2c7a440c078fbc8c47cbeac6257",
+      "files": {
+        "__init__.py": "8fb97b684cb43bc847c283797f15c52a564634fc305d332adbb224500cd3335c",
+        "__main__.py": "6f3ace6e1022b3fcf3b7a4a7e6d7341997fc4f159d055d479b5c758f9c5d9554",
+        "algorithms/__init__.py": "500ac95b984817111fd6fef04fbeffd272c6c7f747802e8404a27ee08b558953",
+        "algorithms/decision.py": "0f47b5af2fe53aad0a4fc0ddbd70bc6c87b64e763a696461e08c0d3976d1a06d",
+        "algorithms/junction.py": "552a6c2d9cd0989dc0a6b491569ee7feaab6f70eb0f918751f4a4759bea3f1c5",
+        "algorithms/scoring.py": "a8cfe29d65ce64adca94c40372de6cecb0774ac001148c780cc9bae8d3cfc648",
+        "algorithms/segmentation.py": "4cdc941237fa208d7563e7b360c87d84dcc984f2a6c97f15e94c0e99ebf69255",
+        "algorithms/similarity.py": "fbad9dfa78e0606abf51c1efd45c8952e419d07e939537ce8bcc896953826347",
+        "algorithms/turnaround.py": "9cfd291a3520dc98d19893494357a1c95c85e6313cd53d9988cc38db81e9f88e",
+        "cli.py": "b27d63deba3b50a169b53965b8ee0496b70dbcea367f24424ae812b5adf1cac5",
+        "config/__init__.py": "70b1abbc2059a6150a943ae8d0f363f27465336f2bd5a186c5e7416e2ed70021",
+        "config/loader.py": "0b4455d219b184c64753d1200853b5b45ed8e0c6616698ab786b921089b6303a",
+        "config/models.py": "b4707cfba11a1e24554dda4c264136b7bb7efb0aada1c174d42be29133a54865",
+        "core/__init__.py": "cd0a944de4fab9b9c7d99d3e3861ec0d9ea842dfe6cdd6a8e2e6e9632a98c802",
+        "core/enums.py": "b36eb268e24859de19e56cbde1dd44aef9ec71b59681066000dd8c1bd8c46ff6",
+        "core/exceptions.py": "eab72f8177f83e04d17002ab6953046aabc9b7b5972a6af113f04768728940c6",
+        "core/types.py": "6dedc0e1f20b5693cce997689c4b036b2c30830df5d9daaf17230c15f630c2c4",
+        "core/version.py": "de668dda2562f6f1a2fe2284e5c77c051066d5e6a64b289778e6a005433f3c2b",
+        "evaluation/__init__.py": "d47181307ec135216f6c5307c74f4efe29a2f78708af68923a07a996f87bcb32",
+        "evaluation/baselines.py": "eacb32f787516e17cfb644d1c62fdea75c0c15e48ee62044894fdd9c08ebdb68",
+        "evaluation/manifest.py": "a4ec1bb91fad227d303ebdd1b9ad4f2cf6e24f06d5c916d3b13b73ae842822a2",
+        "evaluation/metrics.py": "bda6843e21705f6f7d1dcc78f1d04729156e20b0852a334ab3f77330d55aacb4",
+        "evaluation/runner.py": "922d626e3defc948c01f4adc354a36b5c668bc518b4a13fc096a0b0bf71d3d45",
+        "evaluation/synthetic.py": "95153834acaea5fe9722d739fd9dedcf5171406ae340bca7238582328692b12a",
+        "io/__init__.py": "c2a910ee9d05599eed3e5694e8e1ccf34ab9d843cef118d9dabf1f26c0ea84c9",
+        "io/atomic.py": "d6f57341ed3c67de97923de2e75e0aa83ad32f36f4fae82aa910138f22214dbe",
+        "io/checksums.py": "8aeb7aca9173474c35a779508355ccfbccd5c6ca28bf7ee6ed1f09880a5d88ae",
+        "io/json.py": "59cb55c7d3ef60938a266873a539727cff38a9e4040ae32ef2e37eae40fc7d4d",
+        "io/npz.py": "a1d7c614d0a2164fa14137ea743003b32167e75a98c270ab11797348435c558d",
+        "io/paths.py": "d41cf20c1ff2272ae8d27cbbb8225ec97a17472cdea32400693ab2ae434f855c",
+        "io/schema.py": "b7af71ffdf5ef02250b960f4ac74f189b2f8c4cc25c776ba2bca28c8970e0d7f",
+        "io/video.py": "a8cfbb7e7ab586fe761ac1b9f9112263e32c5dc9c77dced9107ac1c07b71fbd9",
+        "memory/__init__.py": "d21973040aafc3cf2324736ded57b919f93f7a2d4aa16adda3cb7fc97582d75f",
+        "memory/schema.py": "b9a794afec33aa9e53416a4efee49a14d0fee32fb84dd0d72f7c57cb4f4c5375",
+        "memory/store.py": "96f74d9a03c8799270c924cca0be5f5802cc3d666f786707a798bdf5a91448d0",
+        "observability/__init__.py": "1d5da60fffb82990507b19cb91a8bd3a01b6366a5ea25c4943a5c9e995c81fd0",
+        "observability/logging.py": "05cde40d4134b27a98f8cf16f1b5ef622283885e1787db512bf0f93ee4388f7e",
+        "observability/manifest.py": "dcbbc679776100ca2bbb5715e4c6bd88fc972cecabbf72faec7a8732a04c2406",
+        "observability/provenance.py": "96bb97f3b47f9f9802459d63546201a9abeb606170befb7510e018c4845db4c3",
+        "pipeline/__init__.py": "f924f54c9dfd32ee3aab172b8b269620824bad440694d784f2cabb6c8112298c",
+        "pipeline/artifacts.py": "e83f596672cdb73852b9f1033bb71f41f516bff52b8b41cd077a1edaa0d6ad34",
+        "pipeline/runner.py": "ccf4ba9ab24054348ffa218fa1026af95c06e7834b1f96edd5cfbdde73c90a7f",
+        "pipeline/serialization.py": "f3cd30bd49f983584b341f801eb6982b1dc6530a09cabcaca3f688b9a112e5ce",
+        "recognition.py": "5f8e069efd0a251ffb0cfb36c6e7e97dab9c36b5fbeac5dd6b73a0965514c990",
+        "reporting/__init__.py": "b0f240212097d45f75e8554e068096803b43ee918fae1fcb019c1dd25884f9da",
+        "reporting/sanitize.py": "bee5a19a94e2e9053b375c81583c75b2b62ce60b9bcb1209b4995ecd9d583775",
+        "reporting/writers.py": "dff857746b18531e39a1f2623a213f09d0e723176fcf9b612707b8abc2d4afe7",
+        "schemas/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "schemas/benchmark-report.schema.json": "a73d0c2a90bcccd29c81cfd33f947969dd458a1ec53351a27d0eace9f54a39ec",
+        "schemas/route-memory-metadata.schema.json": "03ac0e6bf4f6d094b7251ba22020784cf74768c387e9caa7847914febc5911d4",
+        "schemas/run-summary.schema.json": "83c867c7ddd66d967d15092245d4fec0678a526114d3a9e384bf6365b75a252c",
+        "vision/__init__.py": "dc5b370f79137f1b122b6282d8bc786d848ea671f135b1d15dfb5304ec9f6f5c",
+        "vision/encode.py": "dc666f3a4c1e9f671ff3d42c15012fbd56f14487bc2430b53f0f2862caf11c85",
+        "vision/encoders/__init__.py": "ef0ccc85084a1a242ca0ff544a395e3a8830f4ae6e833be674753146e3103237",
+        "vision/encoders/base.py": "d86b91027143d466457eb25dade25d389eca1ef2b64b3f72fbbb34f041d86be5",
+        "vision/encoders/efficientnet.py": "6ea862606451b4ac5bf974fffb8973bb4ccdabd4e78f162c2c4edc7d8b2691f6",
+        "vision/preprocessing.py": "1254cd9c35b272b03ab4a8043091445190d1386eb8ba53f4f15fdb2a4959bfd4"
+      }
+    },
+    "git": {
+      "commit": null,
+      "dirty": null,
+      "reason": "No usable Git checkout; source SHA-256 is authoritative"
+    },
+    "processor": "ARMv8 (64-bit) Family 8 Model 1 Revision 201, Qualcomm Technologies Inc",
+    "hardware": {
+      "cpu_model": "Snapdragon(R) X Plus - X1P42100 - Qualcomm(R) Oryon(TM) CPU",
+      "logical_processors": 8,
+      "process_architecture": "AMD64",
+      "host_architecture": "ARM64",
+      "architecture_mismatch": true,
+      "note": "Architecture mismatch may indicate emulation; timings are specific to this environment."
+    },
+    "thread_environment": {
+      "OMP_NUM_THREADS": null,
+      "OPENBLAS_NUM_THREADS": null,
+      "MKL_NUM_THREADS": null
+    },
+    "inputs": {},
+    "model": {
+      "provenance": "No visual encoder. Unit-normalized Gaussian 64-dimensional vectors; flipped descriptors equal original descriptors."
+    }
+  },
+  "dataset_manifest_sha256": "c7070fccf31493e2bfa0334a6bb94dac4a81d99114626e57f38542dcecb466da",
+  "dataset": {
+    "schema_version": "1.0.0",
+    "dataset_id": "synthetic-stress-v1",
+    "purpose": "synthetic",
+    "root": ".",
+    "provenance": "Generated by vxn_ramnet.evaluation.synthetic; NumPy default_rng seed 2026. 100 enrollment vectors, 84 queries of 60 vectors each. All simulated.",
+    "encoder_provenance": "No visual encoder. Unit-normalized Gaussian 64-dimensional vectors; flipped descriptors equal original descriptors.",
+    "learning": {
+      "id": "synthetic-learning",
+      "path": "synthetic-learning.npz",
+      "sha256": "cd083a9de36b1a1ac5423ad985f5d645d925b13b6cd75d6abb441a92b7c28e67",
+      "session_id": "synthetic-learning",
+      "split": "synthetic",
+      "expected_label": null
+    },
+    "queries": [
+      {
+        "id": "synthetic-branch_a-00",
+        "path": "synthetic-branch_a-00.npz",
+        "sha256": "6d80535f882f9de496134b3331ea3103026522cddb1305cdbbcba7b27a62eb41",
+        "session_id": "synthetic-branch_a-00",
+        "split": "synthetic",
+        "expected_label": "BRANCH_A"
+      },
+      {
+        "id": "synthetic-branch_a-01",
+        "path": "synthetic-branch_a-01.npz",
+        "sha256": "b83a3d08a6242e68c591afedc4c5ff46addbafb4c393b96f0d06900b31a3a9b4",
+        "session_id": "synthetic-branch_a-01",
+        "split": "synthetic",
+        "expected_label": "BRANCH_A"
+      },
+      {
+        "id": "synthetic-branch_a-02",
+        "path": "synthetic-branch_a-02.npz",
+        "sha256": "700a87736a03142e996c21428c7bf685b02d6480465b27a4cad3d3fa1de7840e",
+        "session_id": "synthetic-branch_a-02",
+        "split": "synthetic",
+        "expected_label": "BRANCH_A"
+      },
+      {
+        "id": "synthetic-branch_a-03",
+        "path": "synthetic-branch_a-03.npz",
+        "sha256": "c005ce6299d93b102b21bc5ff9e814144ac0b3f126281a7525b695346efab5df",
+        "session_id": "synthetic-branch_a-03",
+        "split": "synthetic",
+        "expected_label": "BRANCH_A"
+      },
+      {
+        "id": "synthetic-branch_a-04",
+        "path": "synthetic-branch_a-04.npz",
+        "sha256": "ceb0991c9c73154fe3abd17b36c25bf0090d4c92e0bc349c38f3573eee1afcd9",
+        "session_id": "synthetic-branch_a-04",
+        "split": "synthetic",
+        "expected_label": "BRANCH_A"
+      },
+      {
+        "id": "synthetic-branch_a-05",
+        "path": "synthetic-branch_a-05.npz",
+        "sha256": "57a3b0b5bf8c4634b8d10543b7ea45784a7c94f243d7bcf89f94eed610a19a1b",
+        "session_id": "synthetic-branch_a-05",
+        "split": "synthetic",
+        "expected_label": "BRANCH_A"
+      },
+      {
+        "id": "synthetic-branch_a-06",
+        "path": "synthetic-branch_a-06.npz",
+        "sha256": "67044987c2dd56464c468b267caad86753f2a61ae40903bec6e949c0a49102a4",
+        "session_id": "synthetic-branch_a-06",
+        "split": "synthetic",
+        "expected_label": "BRANCH_A"
+      },
+      {
+        "id": "synthetic-branch_a-07",
+        "path": "synthetic-branch_a-07.npz",
+        "sha256": "6f9b99b6c9ea32b9f8b1013d6bb63b377b8783f2a060a2789034006a9a346276",
+        "session_id": "synthetic-branch_a-07",
+        "split": "synthetic",
+        "expected_label": "BRANCH_A"
+      },
+      {
+        "id": "synthetic-branch_a-08",
+        "path": "synthetic-branch_a-08.npz",
+        "sha256": "bdcda95501ea27f808bd55fdd8ef0d89937f6f33f19f7a7131b828c6afb74209",
+        "session_id": "synthetic-branch_a-08",
+        "split": "synthetic",
+        "expected_label": "BRANCH_A"
+      },
+      {
+        "id": "synthetic-branch_a-09",
+        "path": "synthetic-branch_a-09.npz",
+        "sha256": "ae62f8a8f7997a36d7639d0b9d4c727cb2d1ea4543c25bdf339bc0de4d270fd5",
+        "session_id": "synthetic-branch_a-09",
+        "split": "synthetic",
+        "expected_label": "BRANCH_A"
+      },
+      {
+        "id": "synthetic-branch_a-10",
+        "path": "synthetic-branch_a-10.npz",
+        "sha256": "002e376ac1b7e2c3d7a6bed2bbde8ea71fa6b4214c5f4fc15e4c797f3c234ea9",
+        "session_id": "synthetic-branch_a-10",
+        "split": "synthetic",
+        "expected_label": "BRANCH_A"
+      },
+      {
+        "id": "synthetic-branch_a-11",
+        "path": "synthetic-branch_a-11.npz",
+        "sha256": "83dcc37b8d114400c70a749768f9c38543f587f1ad7c9ca2dbc29a7a01d99271",
+        "session_id": "synthetic-branch_a-11",
+        "split": "synthetic",
+        "expected_label": "BRANCH_A"
+      },
+      {
+        "id": "synthetic-branch_a-12",
+        "path": "synthetic-branch_a-12.npz",
+        "sha256": "f56011e7e0dff22453071b80c35f76a14aeb6c27574ee0fbf23a4b2fe7881135",
+        "session_id": "synthetic-branch_a-12",
+        "split": "synthetic",
+        "expected_label": "BRANCH_A"
+      },
+      {
+        "id": "synthetic-branch_a-13",
+        "path": "synthetic-branch_a-13.npz",
+        "sha256": "2a62554f9d5e576fb5886f51397a0d4fd24337c9b3fea1739ca0d972a75430f5",
+        "session_id": "synthetic-branch_a-13",
+        "split": "synthetic",
+        "expected_label": "BRANCH_A"
+      },
+      {
+        "id": "synthetic-branch_a-14",
+        "path": "synthetic-branch_a-14.npz",
+        "sha256": "cdb68f5c97b31d214bb3b6499db61ac2423f81b12fdb72c5e197e670cf6166b4",
+        "session_id": "synthetic-branch_a-14",
+        "split": "synthetic",
+        "expected_label": "BRANCH_A"
+      },
+      {
+        "id": "synthetic-branch_a-15",
+        "path": "synthetic-branch_a-15.npz",
+        "sha256": "30a5548b752f287095c6752d5454ad31e94e786cfa1492de5c00eae780953d56",
+        "session_id": "synthetic-branch_a-15",
+        "split": "synthetic",
+        "expected_label": "BRANCH_A"
+      },
+      {
+        "id": "synthetic-branch_a-16",
+        "path": "synthetic-branch_a-16.npz",
+        "sha256": "d6d43a39b7c19a0104a564d495b29689fa082b673233fb2d1efd87ade47dafdb",
+        "session_id": "synthetic-branch_a-16",
+        "split": "synthetic",
+        "expected_label": "BRANCH_A"
+      },
+      {
+        "id": "synthetic-branch_a-17",
+        "path": "synthetic-branch_a-17.npz",
+        "sha256": "c8f355c8b7fa60e31fddce1f84a1d6242b12ba635ca64e7c7a250f3538a775c1",
+        "session_id": "synthetic-branch_a-17",
+        "split": "synthetic",
+        "expected_label": "BRANCH_A"
+      },
+      {
+        "id": "synthetic-branch_a-18",
+        "path": "synthetic-branch_a-18.npz",
+        "sha256": "c6fa59538ad2fe581a12172a19d566ede93ce9740ac327391defb63d3e2aa284",
+        "session_id": "synthetic-branch_a-18",
+        "split": "synthetic",
+        "expected_label": "BRANCH_A"
+      },
+      {
+        "id": "synthetic-branch_a-19",
+        "path": "synthetic-branch_a-19.npz",
+        "sha256": "b3a7431da61951460ea848626ec967682ae9829cc035c98b14abaae99f41b5b6",
+        "session_id": "synthetic-branch_a-19",
+        "split": "synthetic",
+        "expected_label": "BRANCH_A"
+      },
+      {
+        "id": "synthetic-branch_a-20",
+        "path": "synthetic-branch_a-20.npz",
+        "sha256": "b2fac0f4036da08220eaea6a2288e3c4bc6568822f45d54993a87034b315e629",
+        "session_id": "synthetic-branch_a-20",
+        "split": "synthetic",
+        "expected_label": "BRANCH_A"
+      },
+      {
+        "id": "synthetic-branch_a-21",
+        "path": "synthetic-branch_a-21.npz",
+        "sha256": "98465960110a2b449cab652b331ffc1e668bfc8a44e9c6bab0007f0799f1eb22",
+        "session_id": "synthetic-branch_a-21",
+        "split": "synthetic",
+        "expected_label": "BRANCH_A"
+      },
+      {
+        "id": "synthetic-branch_a-22",
+        "path": "synthetic-branch_a-22.npz",
+        "sha256": "3406e1e0dae7b028c881ab7f9deef78950958a2c287e7f47586651e99ea85ceb",
+        "session_id": "synthetic-branch_a-22",
+        "split": "synthetic",
+        "expected_label": "BRANCH_A"
+      },
+      {
+        "id": "synthetic-branch_a-23",
+        "path": "synthetic-branch_a-23.npz",
+        "sha256": "856e1cd16f9d6b3f00b26b4cddea8932180e16fc1965ae815fe0cbfae8f4575b",
+        "session_id": "synthetic-branch_a-23",
+        "split": "synthetic",
+        "expected_label": "BRANCH_A"
+      },
+      {
+        "id": "synthetic-branch_b-00",
+        "path": "synthetic-branch_b-00.npz",
+        "sha256": "d448990f2cd654b84a5599223389f75d5495df6508a354b38ff89241938a14f7",
+        "session_id": "synthetic-branch_b-00",
+        "split": "synthetic",
+        "expected_label": "BRANCH_B"
+      },
+      {
+        "id": "synthetic-branch_b-01",
+        "path": "synthetic-branch_b-01.npz",
+        "sha256": "e970932ea7d282527eb63a6f8020087924992e679739de4f9fa335efcdd9a539",
+        "session_id": "synthetic-branch_b-01",
+        "split": "synthetic",
+        "expected_label": "BRANCH_B"
+      },
+      {
+        "id": "synthetic-branch_b-02",
+        "path": "synthetic-branch_b-02.npz",
+        "sha256": "f31825a0c7c89a84bfaef6e168a50b56f62f832ec1561a31792143e57a684d01",
+        "session_id": "synthetic-branch_b-02",
+        "split": "synthetic",
+        "expected_label": "BRANCH_B"
+      },
+      {
+        "id": "synthetic-branch_b-03",
+        "path": "synthetic-branch_b-03.npz",
+        "sha256": "fd43085a4410f82dbe698b3453588ef54f277cf2ad812138353e498f2e6924d1",
+        "session_id": "synthetic-branch_b-03",
+        "split": "synthetic",
+        "expected_label": "BRANCH_B"
+      },
+      {
+        "id": "synthetic-branch_b-04",
+        "path": "synthetic-branch_b-04.npz",
+        "sha256": "a701ce4d79147f811911b9a850aa7920581ebe072919eb5279d30b46e86ea8fc",
+        "session_id": "synthetic-branch_b-04",
+        "split": "synthetic",
+        "expected_label": "BRANCH_B"
+      },
+      {
+        "id": "synthetic-branch_b-05",
+        "path": "synthetic-branch_b-05.npz",
+        "sha256": "d5c3ee8698a05311c6024db5d587721236ab7ea674364a22fc5a1a4edbdfd76c",
+        "session_id": "synthetic-branch_b-05",
+        "split": "synthetic",
+        "expected_label": "BRANCH_B"
+      },
+      {
+        "id": "synthetic-branch_b-06",
+        "path": "synthetic-branch_b-06.npz",
+        "sha256": "af271b08892db5e0ab477d07c5307aeee6c1580072ebba668c7a061c039ab963",
+        "session_id": "synthetic-branch_b-06",
+        "split": "synthetic",
+        "expected_label": "BRANCH_B"
+      },
+      {
+        "id": "synthetic-branch_b-07",
+        "path": "synthetic-branch_b-07.npz",
+        "sha256": "da88e99f0c4999d13d8b595d2aa2793a4c68e7ffea31fdb232439d5ab02a8395",
+        "session_id": "synthetic-branch_b-07",
+        "split": "synthetic",
+        "expected_label": "BRANCH_B"
+      },
+      {
+        "id": "synthetic-branch_b-08",
+        "path": "synthetic-branch_b-08.npz",
+        "sha256": "16287dc7b010272961fbcf15a1d5dfe401487b12fe496ed965e1f60af2a4a611",
+        "session_id": "synthetic-branch_b-08",
+        "split": "synthetic",
+        "expected_label": "BRANCH_B"
+      },
+      {
+        "id": "synthetic-branch_b-09",
+        "path": "synthetic-branch_b-09.npz",
+        "sha256": "80fc8985e6dce489872d908686fe0f06bee8454345b64df0c158f4895db2235c",
+        "session_id": "synthetic-branch_b-09",
+        "split": "synthetic",
+        "expected_label": "BRANCH_B"
+      },
+      {
+        "id": "synthetic-branch_b-10",
+        "path": "synthetic-branch_b-10.npz",
+        "sha256": "557ac17fdd74f9227a154e03429d2c73493f07caab80e73f178d447c43a2deb0",
+        "session_id": "synthetic-branch_b-10",
+        "split": "synthetic",
+        "expected_label": "BRANCH_B"
+      },
+      {
+        "id": "synthetic-branch_b-11",
+        "path": "synthetic-branch_b-11.npz",
+        "sha256": "fa71932b2a587dcf9bfbc2a2b8b237bdd9934b88b43756c6ae61b47028642003",
+        "session_id": "synthetic-branch_b-11",
+        "split": "synthetic",
+        "expected_label": "BRANCH_B"
+      },
+      {
+        "id": "synthetic-branch_b-12",
+        "path": "synthetic-branch_b-12.npz",
+        "sha256": "aea41238c9abc01eb2c9eed938ae0df1814847c850e5eba7f0c2866ff2565bd2",
+        "session_id": "synthetic-branch_b-12",
+        "split": "synthetic",
+        "expected_label": "BRANCH_B"
+      },
+      {
+        "id": "synthetic-branch_b-13",
+        "path": "synthetic-branch_b-13.npz",
+        "sha256": "94b0e956235ca61380322c6a3d93b71515ff88d2ab5a8a4ee8ea4f61a4f990e8",
+        "session_id": "synthetic-branch_b-13",
+        "split": "synthetic",
+        "expected_label": "BRANCH_B"
+      },
+      {
+        "id": "synthetic-branch_b-14",
+        "path": "synthetic-branch_b-14.npz",
+        "sha256": "f9b7e0a211fbb85b7c201a9d28e05ab918b6afe1fad344f945cd96e51bfd3609",
+        "session_id": "synthetic-branch_b-14",
+        "split": "synthetic",
+        "expected_label": "BRANCH_B"
+      },
+      {
+        "id": "synthetic-branch_b-15",
+        "path": "synthetic-branch_b-15.npz",
+        "sha256": "08c6bad06b646350937b6ffa3d37a29b377df2436d6a49cde96b91f1708090f4",
+        "session_id": "synthetic-branch_b-15",
+        "split": "synthetic",
+        "expected_label": "BRANCH_B"
+      },
+      {
+        "id": "synthetic-branch_b-16",
+        "path": "synthetic-branch_b-16.npz",
+        "sha256": "493aec831c04777f93ab7d7d2fad45d8441eb377c6cb89f980524322216ebc63",
+        "session_id": "synthetic-branch_b-16",
+        "split": "synthetic",
+        "expected_label": "BRANCH_B"
+      },
+      {
+        "id": "synthetic-branch_b-17",
+        "path": "synthetic-branch_b-17.npz",
+        "sha256": "333183a860d81a8c01dee990ffae1766463ce5acbdee1f96dd9423295e2c5de6",
+        "session_id": "synthetic-branch_b-17",
+        "split": "synthetic",
+        "expected_label": "BRANCH_B"
+      },
+      {
+        "id": "synthetic-branch_b-18",
+        "path": "synthetic-branch_b-18.npz",
+        "sha256": "a205b06fc3790e577559a65096317af3691d502dd392cfde22632fc1c03650d3",
+        "session_id": "synthetic-branch_b-18",
+        "split": "synthetic",
+        "expected_label": "BRANCH_B"
+      },
+      {
+        "id": "synthetic-branch_b-19",
+        "path": "synthetic-branch_b-19.npz",
+        "sha256": "a53ee7d9d36175c8ce25af7242ec2988161d653230794694c9e8a6300de2cac2",
+        "session_id": "synthetic-branch_b-19",
+        "split": "synthetic",
+        "expected_label": "BRANCH_B"
+      },
+      {
+        "id": "synthetic-branch_b-20",
+        "path": "synthetic-branch_b-20.npz",
+        "sha256": "92b48ca103fe7b7bb7dffa8cdc1bd111293a161298e7824c89d53ca0eae73154",
+        "session_id": "synthetic-branch_b-20",
+        "split": "synthetic",
+        "expected_label": "BRANCH_B"
+      },
+      {
+        "id": "synthetic-branch_b-21",
+        "path": "synthetic-branch_b-21.npz",
+        "sha256": "5954e5d7fc65d58571d792a3c58e454606c1450063dcf9a76458dfe32d068825",
+        "session_id": "synthetic-branch_b-21",
+        "split": "synthetic",
+        "expected_label": "BRANCH_B"
+      },
+      {
+        "id": "synthetic-branch_b-22",
+        "path": "synthetic-branch_b-22.npz",
+        "sha256": "1eb13335ef54451eaa8ad550bfe7f5001e6f90c6c0096fbd855caa06dd6c7649",
+        "session_id": "synthetic-branch_b-22",
+        "split": "synthetic",
+        "expected_label": "BRANCH_B"
+      },
+      {
+        "id": "synthetic-branch_b-23",
+        "path": "synthetic-branch_b-23.npz",
+        "sha256": "d1818f5071efb8d7b1ccf9fd1e0683fbd902fda431614cbb4996d886740bfa87",
+        "session_id": "synthetic-branch_b-23",
+        "split": "synthetic",
+        "expected_label": "BRANCH_B"
+      },
+      {
+        "id": "synthetic-unknown-00",
+        "path": "synthetic-unknown-00.npz",
+        "sha256": "792901332c91c11b9ce64b02aad5381f872fc30726d12cc0ddd61b7396d532c0",
+        "session_id": "synthetic-unknown-00",
+        "split": "synthetic",
+        "expected_label": "UNKNOWN"
+      },
+      {
+        "id": "synthetic-unknown-01",
+        "path": "synthetic-unknown-01.npz",
+        "sha256": "713b0157ac22b34516026a3ce1e1db7c8922a6eee7fe685fa41ade7a922bf8ba",
+        "session_id": "synthetic-unknown-01",
+        "split": "synthetic",
+        "expected_label": "UNKNOWN"
+      },
+      {
+        "id": "synthetic-unknown-02",
+        "path": "synthetic-unknown-02.npz",
+        "sha256": "083253f713b08d054f32f8ab374700ce44b770b9792412cc21fa6ccc9563038f",
+        "session_id": "synthetic-unknown-02",
+        "split": "synthetic",
+        "expected_label": "UNKNOWN"
+      },
+      {
+        "id": "synthetic-unknown-03",
+        "path": "synthetic-unknown-03.npz",
+        "sha256": "1085db416988086cad79110919c14f4688b2ef721bfcc6c58a1a6a580c25d244",
+        "session_id": "synthetic-unknown-03",
+        "split": "synthetic",
+        "expected_label": "UNKNOWN"
+      },
+      {
+        "id": "synthetic-unknown-04",
+        "path": "synthetic-unknown-04.npz",
+        "sha256": "776f1d5734db669b23ea137b5a25073675107ad20c8dac65b7507706646af31a",
+        "session_id": "synthetic-unknown-04",
+        "split": "synthetic",
+        "expected_label": "UNKNOWN"
+      },
+      {
+        "id": "synthetic-unknown-05",
+        "path": "synthetic-unknown-05.npz",
+        "sha256": "8b28b100f31ad522a1c3538b878290bbe0a73fa36c7da569b23ca453a5791e36",
+        "session_id": "synthetic-unknown-05",
+        "split": "synthetic",
+        "expected_label": "UNKNOWN"
+      },
+      {
+        "id": "synthetic-unknown-06",
+        "path": "synthetic-unknown-06.npz",
+        "sha256": "9ece6ae0295ea43b868e24118d593c524c6b761d2acba398d92a0ec98632f4a5",
+        "session_id": "synthetic-unknown-06",
+        "split": "synthetic",
+        "expected_label": "UNKNOWN"
+      },
+      {
+        "id": "synthetic-unknown-07",
+        "path": "synthetic-unknown-07.npz",
+        "sha256": "814fe64f47c1386c2c7ba448e3bdc08fdf985bfeef1b429ee73b3cbc9deefde4",
+        "session_id": "synthetic-unknown-07",
+        "split": "synthetic",
+        "expected_label": "UNKNOWN"
+      },
+      {
+        "id": "synthetic-unknown-08",
+        "path": "synthetic-unknown-08.npz",
+        "sha256": "3b2f6b11233e13e59ab22104a6487639d4cc09cf565a33099bf2dd8ae24dd3bd",
+        "session_id": "synthetic-unknown-08",
+        "split": "synthetic",
+        "expected_label": "UNKNOWN"
+      },
+      {
+        "id": "synthetic-unknown-09",
+        "path": "synthetic-unknown-09.npz",
+        "sha256": "88a39c63c3169c52dcca6f62a51a7179fb23ff307ee983d064304cd9cfe0b410",
+        "session_id": "synthetic-unknown-09",
+        "split": "synthetic",
+        "expected_label": "UNKNOWN"
+      },
+      {
+        "id": "synthetic-unknown-10",
+        "path": "synthetic-unknown-10.npz",
+        "sha256": "d555ebd57297e0d0617abf15c79e8a80e1c0b2803ad32aa2dcf9551b8707290d",
+        "session_id": "synthetic-unknown-10",
+        "split": "synthetic",
+        "expected_label": "UNKNOWN"
+      },
+      {
+        "id": "synthetic-unknown-11",
+        "path": "synthetic-unknown-11.npz",
+        "sha256": "ea9c3f93538d16c71ac4c276006ffd9a259cdc4cd3602567fc5a684b4fee1133",
+        "session_id": "synthetic-unknown-11",
+        "split": "synthetic",
+        "expected_label": "UNKNOWN"
+      },
+      {
+        "id": "synthetic-unknown-12",
+        "path": "synthetic-unknown-12.npz",
+        "sha256": "292798ef4bc92ffd85bd0040b05f472fed3b53c8e46eb608e519bfb919429b31",
+        "session_id": "synthetic-unknown-12",
+        "split": "synthetic",
+        "expected_label": "UNKNOWN"
+      },
+      {
+        "id": "synthetic-unknown-13",
+        "path": "synthetic-unknown-13.npz",
+        "sha256": "f33a43fce2228885948e3e894448d9e5cec3baf53460ccb228966bb60997f5a8",
+        "session_id": "synthetic-unknown-13",
+        "split": "synthetic",
+        "expected_label": "UNKNOWN"
+      },
+      {
+        "id": "synthetic-unknown-14",
+        "path": "synthetic-unknown-14.npz",
+        "sha256": "9209149f2b43c9111fe7af8977f25367e7c4e745cdf908272a1d93fc7c3e9f3c",
+        "session_id": "synthetic-unknown-14",
+        "split": "synthetic",
+        "expected_label": "UNKNOWN"
+      },
+      {
+        "id": "synthetic-unknown-15",
+        "path": "synthetic-unknown-15.npz",
+        "sha256": "fc5accbfa715664eb8b24e3549fa3c1e81cbeb0c8e00249f9a6c771a91af1206",
+        "session_id": "synthetic-unknown-15",
+        "split": "synthetic",
+        "expected_label": "UNKNOWN"
+      },
+      {
+        "id": "synthetic-unknown-16",
+        "path": "synthetic-unknown-16.npz",
+        "sha256": "4750fcd1d6d84d035177ebef4281b18a631a893b2d7398a8740568c4144fff4c",
+        "session_id": "synthetic-unknown-16",
+        "split": "synthetic",
+        "expected_label": "UNKNOWN"
+      },
+      {
+        "id": "synthetic-unknown-17",
+        "path": "synthetic-unknown-17.npz",
+        "sha256": "f13395242ed423d10627616e5a094f24bbf700ac81d548c2005873c71990123f",
+        "session_id": "synthetic-unknown-17",
+        "split": "synthetic",
+        "expected_label": "UNKNOWN"
+      },
+      {
+        "id": "synthetic-unknown-18",
+        "path": "synthetic-unknown-18.npz",
+        "sha256": "fbc6c861074fc29a2c08c851cd43933ed1eebc68df60ea2b187e01d9770e7905",
+        "session_id": "synthetic-unknown-18",
+        "split": "synthetic",
+        "expected_label": "UNKNOWN"
+      },
+      {
+        "id": "synthetic-unknown-19",
+        "path": "synthetic-unknown-19.npz",
+        "sha256": "d4d9da57b6037c2f3a5d8a3b9eb0fce101ff44404e030d72b04c94f6de30038e",
+        "session_id": "synthetic-unknown-19",
+        "split": "synthetic",
+        "expected_label": "UNKNOWN"
+      },
+      {
+        "id": "synthetic-unknown-20",
+        "path": "synthetic-unknown-20.npz",
+        "sha256": "a9427fc700f6a020147cef4403a32150a5f49b28b7d71693730de5d2c7c2a9af",
+        "session_id": "synthetic-unknown-20",
+        "split": "synthetic",
+        "expected_label": "UNKNOWN"
+      },
+      {
+        "id": "synthetic-unknown-21",
+        "path": "synthetic-unknown-21.npz",
+        "sha256": "5cb177fcdc5c521f9f16068297faf5a8baa735bdd2aa93f70b18a96d07609740",
+        "session_id": "synthetic-unknown-21",
+        "split": "synthetic",
+        "expected_label": "UNKNOWN"
+      },
+      {
+        "id": "synthetic-unknown-22",
+        "path": "synthetic-unknown-22.npz",
+        "sha256": "023bcd59595f78deca711e32014d5b575f37df227584343327d7a5b04f995d84",
+        "session_id": "synthetic-unknown-22",
+        "split": "synthetic",
+        "expected_label": "UNKNOWN"
+      },
+      {
+        "id": "synthetic-unknown-23",
+        "path": "synthetic-unknown-23.npz",
+        "sha256": "abbeebdb73410cc606070e3c497df638c6b2d30bd5bcb4b8a8d649ffdf03e682",
+        "session_id": "synthetic-unknown-23",
+        "split": "synthetic",
+        "expected_label": "UNKNOWN"
+      },
+      {
+        "id": "synthetic-ambiguous-00",
+        "path": "synthetic-ambiguous-00.npz",
+        "sha256": "a69b6caf3fc0d7ed42e1701ae1a18c1f6e4d82948fd165092448ecd3c0a2751c",
+        "session_id": "synthetic-ambiguous-00",
+        "split": "synthetic",
+        "expected_label": "AMBIGUOUS"
+      },
+      {
+        "id": "synthetic-ambiguous-01",
+        "path": "synthetic-ambiguous-01.npz",
+        "sha256": "a9e5ee0d44715383e1938c27b366003b02aeaf416cc13b681a64d46c789eaab8",
+        "session_id": "synthetic-ambiguous-01",
+        "split": "synthetic",
+        "expected_label": "AMBIGUOUS"
+      },
+      {
+        "id": "synthetic-ambiguous-02",
+        "path": "synthetic-ambiguous-02.npz",
+        "sha256": "2e7d161c7aebd3920bee84926b79c1992c7f5e8097a10015d74a92a1ccde62b4",
+        "session_id": "synthetic-ambiguous-02",
+        "split": "synthetic",
+        "expected_label": "AMBIGUOUS"
+      },
+      {
+        "id": "synthetic-ambiguous-03",
+        "path": "synthetic-ambiguous-03.npz",
+        "sha256": "4c39adb6382f1454bd282c67ea5caad4c8844d51a6e98beaa73720a4d56e693f",
+        "session_id": "synthetic-ambiguous-03",
+        "split": "synthetic",
+        "expected_label": "AMBIGUOUS"
+      },
+      {
+        "id": "synthetic-ambiguous-04",
+        "path": "synthetic-ambiguous-04.npz",
+        "sha256": "2d02216f10cc27ebefbb37d53ca562fdff37220b241ecb40c40bce8de22949e5",
+        "session_id": "synthetic-ambiguous-04",
+        "split": "synthetic",
+        "expected_label": "AMBIGUOUS"
+      },
+      {
+        "id": "synthetic-ambiguous-05",
+        "path": "synthetic-ambiguous-05.npz",
+        "sha256": "34b320fbac21839d8b650392d55d0b1eb88622a314e49d0dc8ac1795dcb44fa3",
+        "session_id": "synthetic-ambiguous-05",
+        "split": "synthetic",
+        "expected_label": "AMBIGUOUS"
+      },
+      {
+        "id": "synthetic-ambiguous-06",
+        "path": "synthetic-ambiguous-06.npz",
+        "sha256": "b147760bcfaeeb869576bb005221ac8388018ec6bcadb02f6693dde90d08c078",
+        "session_id": "synthetic-ambiguous-06",
+        "split": "synthetic",
+        "expected_label": "AMBIGUOUS"
+      },
+      {
+        "id": "synthetic-ambiguous-07",
+        "path": "synthetic-ambiguous-07.npz",
+        "sha256": "ce296b3cc5f1930e103ea37d14b429365142bc5de185ce0e0f0a47eaa29bf4d3",
+        "session_id": "synthetic-ambiguous-07",
+        "split": "synthetic",
+        "expected_label": "AMBIGUOUS"
+      },
+      {
+        "id": "synthetic-ambiguous-08",
+        "path": "synthetic-ambiguous-08.npz",
+        "sha256": "1d52675934485858a5960493c0e147235b3551a436aebfc6fb945ec20e18a1f3",
+        "session_id": "synthetic-ambiguous-08",
+        "split": "synthetic",
+        "expected_label": "AMBIGUOUS"
+      },
+      {
+        "id": "synthetic-ambiguous-09",
+        "path": "synthetic-ambiguous-09.npz",
+        "sha256": "9dd2580aa99487c2b65828521be67f8d1c6d149c04d0708a7a6fb5849c327d54",
+        "session_id": "synthetic-ambiguous-09",
+        "split": "synthetic",
+        "expected_label": "AMBIGUOUS"
+      },
+      {
+        "id": "synthetic-ambiguous-10",
+        "path": "synthetic-ambiguous-10.npz",
+        "sha256": "c5f59dd8aeb4afbddcd07cbb54fbd4ffe7523ed3779c5cde051630748e7ab683",
+        "session_id": "synthetic-ambiguous-10",
+        "split": "synthetic",
+        "expected_label": "AMBIGUOUS"
+      },
+      {
+        "id": "synthetic-ambiguous-11",
+        "path": "synthetic-ambiguous-11.npz",
+        "sha256": "cc3c7c20d4e15cb0340f1117ea57dd089ee17da04b79b8773351a1197a75b44e",
+        "session_id": "synthetic-ambiguous-11",
+        "split": "synthetic",
+        "expected_label": "AMBIGUOUS"
+      }
+    ],
+    "expected_events": {
+      "first_junction_index": 25,
+      "turnaround_index": 50,
+      "return_junction_index": 76,
+      "provenance": "Generator geometry: centers of repeated seven-vector junction; turnaround adjacent to repeated branch reversal"
+    },
+    "detection": {
+      "first_junction_search": [
+        0.15,
+        0.4
+      ],
+      "return_junction_search": [
+        0.6,
+        0.85
+      ],
+      "junction_window": 2,
+      "junction_memory_radius": 2,
+      "min_junction_gap_ratio": 0.3,
+      "expected_first_junction_ratio": 0.25,
+      "expected_return_junction_ratio": 0.76,
+      "plausibility_weight": 0.2,
+      "good_junction_score": 0.7,
+      "acceptable_junction_score": 0.56,
+      "good_backtrack_score": 0.56,
+      "acceptable_backtrack_score": 0.42,
+      "reverse_sample_count": 28,
+      "self_similarity_chunk_size": 512,
+      "segment_policy": "disjoint"
+    },
+    "maximum_total_embedding_bytes": 512000000
+  },
+  "decision_settings": {
+    "minimum_branch_score": 0.58,
+    "minimum_branch_gap": 0.04,
+    "strong_branch_score": 0.72,
+    "strong_branch_gap": 0.07,
+    "unknown_score": 0.54,
+    "window_selection": "top_k_mean",
+    "top_k_windows": 3,
+    "confidence_temperature": 0.08
+  },
+  "enrollment": {
+    "default": {
+      "events": {
+        "first_junction_index": 25,
+        "turnaround_index": 51,
+        "return_junction_index": 76
+      },
+      "quality": {
+        "junction_score": 1.0,
+        "junction_confidence": "high",
+        "backtrack_score": 0.8752188086509705,
+        "backtrack_confidence": "high"
+      },
+      "segment_policy": "disjoint",
+      "event_mean_absolute_error_frames": 0.3333333333333333,
+      "timing": {
+        "samples": 5,
+        "median_ms": 19.9087,
+        "p95_ms": 21.50866,
+        "min_ms": 19.2974,
+        "max_ms": 21.7231
+      },
+      "memory_numeric_array_bytes": 52880,
+      "self_similarity_array_bytes": 40000
+    },
+    "legacy": {
+      "events": {
+        "first_junction_index": 25,
+        "turnaround_index": 51,
+        "return_junction_index": 76
+      },
+      "quality": {
+        "junction_score": 1.0,
+        "junction_confidence": "high",
+        "backtrack_score": 0.8752188086509705,
+        "backtrack_confidence": "high"
+      },
+      "segment_policy": "legacy_overlap",
+      "event_mean_absolute_error_frames": 0.3333333333333333,
+      "timing": {
+        "samples": 5,
+        "median_ms": 20.3202,
+        "p95_ms": 21.22308,
+        "min_ms": 20.0579,
+        "max_ms": 21.3734
+      },
+      "memory_numeric_array_bytes": 58040,
+      "self_similarity_array_bytes": 40000
+    },
+    "original_only": {
+      "events": {
+        "first_junction_index": 25,
+        "turnaround_index": 51,
+        "return_junction_index": 76
+      },
+      "quality": {
+        "junction_score": 1.0,
+        "junction_confidence": "high",
+        "backtrack_score": 0.8752188086509705,
+        "backtrack_confidence": "high"
+      },
+      "segment_policy": "disjoint",
+      "event_mean_absolute_error_frames": 0.3333333333333333,
+      "timing": {
+        "samples": 5,
+        "median_ms": 20.6119,
+        "p95_ms": 22.014680000000002,
+        "min_ms": 19.5951,
+        "max_ms": 22.2634
+      },
+      "memory_numeric_array_bytes": 52880,
+      "self_similarity_array_bytes": 40000
+    },
+    "no_temporal_prior": {
+      "events": {
+        "first_junction_index": 25,
+        "turnaround_index": 51,
+        "return_junction_index": 76
+      },
+      "quality": {
+        "junction_score": 1.0,
+        "junction_confidence": "high",
+        "backtrack_score": 0.8752188086509705,
+        "backtrack_confidence": "high"
+      },
+      "segment_policy": "disjoint",
+      "event_mean_absolute_error_frames": 0.3333333333333333,
+      "timing": {
+        "samples": 5,
+        "median_ms": 20.174,
+        "p95_ms": 21.77778,
+        "min_ms": 19.7441,
+        "max_ms": 22.0822
+      },
+      "memory_numeric_array_bytes": 52880,
+      "self_similarity_array_bytes": 40000
+    }
+  },
+  "methods": {
+    "vxn_default": {
+      "metrics": {
+        "journeys": 84,
+        "known_journeys": 48,
+        "unknown_journeys": 24,
+        "ambiguous_journeys": 12,
+        "accepted": 48,
+        "accepted_errors": 0,
+        "correct_known": 48,
+        "coverage": 0.5714285714285714,
+        "selective_risk": 0.0,
+        "known_decision_accuracy": 1.0,
+        "known_macro_f1": 1.0,
+        "known_coverage": 1.0,
+        "unknown_false_accepts": 0,
+        "unknown_false_acceptance_rate": 0.0,
+        "unknown_rejection_rate": 1.0,
+        "ambiguous_abstention_rate": 1.0,
+        "error_count": 0,
+        "confusion_matrix": {
+          "BRANCH_A": {
+            "BRANCH_A": 24,
+            "BRANCH_B": 0,
+            "ABSTAIN": 0,
+            "ERROR": 0
+          },
+          "BRANCH_B": {
+            "BRANCH_A": 0,
+            "BRANCH_B": 24,
+            "ABSTAIN": 0,
+            "ERROR": 0
+          },
+          "UNKNOWN": {
+            "BRANCH_A": 0,
+            "BRANCH_B": 0,
+            "ABSTAIN": 24,
+            "ERROR": 0
+          },
+          "AMBIGUOUS": {
+            "BRANCH_A": 0,
+            "BRANCH_B": 0,
+            "ABSTAIN": 12,
+            "ERROR": 0
+          }
+        },
+        "unknown_auroc": 1.0,
+        "unknown_average_precision": 1.0
+      },
+      "classification_timing": {
+        "samples": 420,
+        "median_ms": 1.97525,
+        "p95_ms": 2.6647499999999997,
+        "min_ms": 1.8173,
+        "max_ms": 3.2368
+      }
+    },
+    "vxn_reference_windows": {
+      "metrics": {
+        "journeys": 84,
+        "known_journeys": 48,
+        "unknown_journeys": 24,
+        "ambiguous_journeys": 12,
+        "accepted": 48,
+        "accepted_errors": 0,
+        "correct_known": 48,
+        "coverage": 0.5714285714285714,
+        "selective_risk": 0.0,
+        "known_decision_accuracy": 1.0,
+        "known_macro_f1": 1.0,
+        "known_coverage": 1.0,
+        "unknown_false_accepts": 0,
+        "unknown_false_acceptance_rate": 0.0,
+        "unknown_rejection_rate": 1.0,
+        "ambiguous_abstention_rate": 1.0,
+        "error_count": 0,
+        "confusion_matrix": {
+          "BRANCH_A": {
+            "BRANCH_A": 24,
+            "BRANCH_B": 0,
+            "ABSTAIN": 0,
+            "ERROR": 0
+          },
+          "BRANCH_B": {
+            "BRANCH_A": 0,
+            "BRANCH_B": 24,
+            "ABSTAIN": 0,
+            "ERROR": 0
+          },
+          "UNKNOWN": {
+            "BRANCH_A": 0,
+            "BRANCH_B": 0,
+            "ABSTAIN": 24,
+            "ERROR": 0
+          },
+          "AMBIGUOUS": {
+            "BRANCH_A": 0,
+            "BRANCH_B": 0,
+            "ABSTAIN": 12,
+            "ERROR": 0
+          }
+        },
+        "unknown_auroc": 1.0,
+        "unknown_average_precision": 1.0
+      },
+      "classification_timing": {
+        "samples": 420,
+        "median_ms": 23.8179,
+        "p95_ms": 26.052109999999995,
+        "min_ms": 21.4576,
+        "max_ms": 29.5436
+      }
+    },
+    "vxn_disjoint_best": {
+      "metrics": {
+        "journeys": 84,
+        "known_journeys": 48,
+        "unknown_journeys": 24,
+        "ambiguous_journeys": 12,
+        "accepted": 48,
+        "accepted_errors": 0,
+        "correct_known": 48,
+        "coverage": 0.5714285714285714,
+        "selective_risk": 0.0,
+        "known_decision_accuracy": 1.0,
+        "known_macro_f1": 1.0,
+        "known_coverage": 1.0,
+        "unknown_false_accepts": 0,
+        "unknown_false_acceptance_rate": 0.0,
+        "unknown_rejection_rate": 1.0,
+        "ambiguous_abstention_rate": 1.0,
+        "error_count": 0,
+        "confusion_matrix": {
+          "BRANCH_A": {
+            "BRANCH_A": 24,
+            "BRANCH_B": 0,
+            "ABSTAIN": 0,
+            "ERROR": 0
+          },
+          "BRANCH_B": {
+            "BRANCH_A": 0,
+            "BRANCH_B": 24,
+            "ABSTAIN": 0,
+            "ERROR": 0
+          },
+          "UNKNOWN": {
+            "BRANCH_A": 0,
+            "BRANCH_B": 0,
+            "ABSTAIN": 24,
+            "ERROR": 0
+          },
+          "AMBIGUOUS": {
+            "BRANCH_A": 0,
+            "BRANCH_B": 0,
+            "ABSTAIN": 12,
+            "ERROR": 0
+          }
+        },
+        "unknown_auroc": 1.0,
+        "unknown_average_precision": 1.0
+      },
+      "classification_timing": {
+        "samples": 420,
+        "median_ms": 1.9992999999999999,
+        "p95_ms": 2.9194699999999996,
+        "min_ms": 1.8173,
+        "max_ms": 3.953
+      }
+    },
+    "vxn_legacy": {
+      "metrics": {
+        "journeys": 84,
+        "known_journeys": 48,
+        "unknown_journeys": 24,
+        "ambiguous_journeys": 12,
+        "accepted": 48,
+        "accepted_errors": 0,
+        "correct_known": 48,
+        "coverage": 0.5714285714285714,
+        "selective_risk": 0.0,
+        "known_decision_accuracy": 1.0,
+        "known_macro_f1": 1.0,
+        "known_coverage": 1.0,
+        "unknown_false_accepts": 0,
+        "unknown_false_acceptance_rate": 0.0,
+        "unknown_rejection_rate": 1.0,
+        "ambiguous_abstention_rate": 1.0,
+        "error_count": 0,
+        "confusion_matrix": {
+          "BRANCH_A": {
+            "BRANCH_A": 24,
+            "BRANCH_B": 0,
+            "ABSTAIN": 0,
+            "ERROR": 0
+          },
+          "BRANCH_B": {
+            "BRANCH_A": 0,
+            "BRANCH_B": 24,
+            "ABSTAIN": 0,
+            "ERROR": 0
+          },
+          "UNKNOWN": {
+            "BRANCH_A": 0,
+            "BRANCH_B": 0,
+            "ABSTAIN": 24,
+            "ERROR": 0
+          },
+          "AMBIGUOUS": {
+            "BRANCH_A": 0,
+            "BRANCH_B": 0,
+            "ABSTAIN": 12,
+            "ERROR": 0
+          }
+        },
+        "unknown_auroc": 1.0,
+        "unknown_average_precision": 1.0
+      },
+      "classification_timing": {
+        "samples": 420,
+        "median_ms": 1.9768,
+        "p95_ms": 2.8925899999999998,
+        "min_ms": 1.8153,
+        "max_ms": 3.7473
+      }
+    },
+    "vxn_original_only": {
+      "metrics": {
+        "journeys": 84,
+        "known_journeys": 48,
+        "unknown_journeys": 24,
+        "ambiguous_journeys": 12,
+        "accepted": 48,
+        "accepted_errors": 0,
+        "correct_known": 48,
+        "coverage": 0.5714285714285714,
+        "selective_risk": 0.0,
+        "known_decision_accuracy": 1.0,
+        "known_macro_f1": 1.0,
+        "known_coverage": 1.0,
+        "unknown_false_accepts": 0,
+        "unknown_false_acceptance_rate": 0.0,
+        "unknown_rejection_rate": 1.0,
+        "ambiguous_abstention_rate": 1.0,
+        "error_count": 0,
+        "confusion_matrix": {
+          "BRANCH_A": {
+            "BRANCH_A": 24,
+            "BRANCH_B": 0,
+            "ABSTAIN": 0,
+            "ERROR": 0
+          },
+          "BRANCH_B": {
+            "BRANCH_A": 0,
+            "BRANCH_B": 24,
+            "ABSTAIN": 0,
+            "ERROR": 0
+          },
+          "UNKNOWN": {
+            "BRANCH_A": 0,
+            "BRANCH_B": 0,
+            "ABSTAIN": 24,
+            "ERROR": 0
+          },
+          "AMBIGUOUS": {
+            "BRANCH_A": 0,
+            "BRANCH_B": 0,
+            "ABSTAIN": 12,
+            "ERROR": 0
+          }
+        },
+        "unknown_auroc": 1.0,
+        "unknown_average_precision": 1.0
+      },
+      "classification_timing": {
+        "samples": 420,
+        "median_ms": 2.0105500000000003,
+        "p95_ms": 2.9696399999999987,
+        "min_ms": 1.8312,
+        "max_ms": 6.4493
+      }
+    },
+    "vxn_no_temporal_prior": {
+      "metrics": {
+        "journeys": 84,
+        "known_journeys": 48,
+        "unknown_journeys": 24,
+        "ambiguous_journeys": 12,
+        "accepted": 48,
+        "accepted_errors": 0,
+        "correct_known": 48,
+        "coverage": 0.5714285714285714,
+        "selective_risk": 0.0,
+        "known_decision_accuracy": 1.0,
+        "known_macro_f1": 1.0,
+        "known_coverage": 1.0,
+        "unknown_false_accepts": 0,
+        "unknown_false_acceptance_rate": 0.0,
+        "unknown_rejection_rate": 1.0,
+        "ambiguous_abstention_rate": 1.0,
+        "error_count": 0,
+        "confusion_matrix": {
+          "BRANCH_A": {
+            "BRANCH_A": 24,
+            "BRANCH_B": 0,
+            "ABSTAIN": 0,
+            "ERROR": 0
+          },
+          "BRANCH_B": {
+            "BRANCH_A": 0,
+            "BRANCH_B": 24,
+            "ABSTAIN": 0,
+            "ERROR": 0
+          },
+          "UNKNOWN": {
+            "BRANCH_A": 0,
+            "BRANCH_B": 0,
+            "ABSTAIN": 24,
+            "ERROR": 0
+          },
+          "AMBIGUOUS": {
+            "BRANCH_A": 0,
+            "BRANCH_B": 0,
+            "ABSTAIN": 12,
+            "ERROR": 0
+          }
+        },
+        "unknown_auroc": 1.0,
+        "unknown_average_precision": 1.0
+      },
+      "classification_timing": {
+        "samples": 420,
+        "median_ms": 1.9909,
+        "p95_ms": 2.724355,
+        "min_ms": 1.8222,
+        "max_ms": 3.4689
+      }
+    },
+    "fixed_branch_a": {
+      "metrics": {
+        "journeys": 84,
+        "known_journeys": 48,
+        "unknown_journeys": 24,
+        "ambiguous_journeys": 12,
+        "accepted": 84,
+        "accepted_errors": 60,
+        "correct_known": 24,
+        "coverage": 1.0,
+        "selective_risk": 0.7142857142857143,
+        "known_decision_accuracy": 0.5,
+        "known_macro_f1": 0.3333333333333333,
+        "known_coverage": 1.0,
+        "unknown_false_accepts": 24,
+        "unknown_false_acceptance_rate": 1.0,
+        "unknown_rejection_rate": 0.0,
+        "ambiguous_abstention_rate": 0.0,
+        "error_count": 0,
+        "confusion_matrix": {
+          "BRANCH_A": {
+            "BRANCH_A": 24,
+            "BRANCH_B": 0,
+            "ABSTAIN": 0,
+            "ERROR": 0
+          },
+          "BRANCH_B": {
+            "BRANCH_A": 24,
+            "BRANCH_B": 0,
+            "ABSTAIN": 0,
+            "ERROR": 0
+          },
+          "UNKNOWN": {
+            "BRANCH_A": 24,
+            "BRANCH_B": 0,
+            "ABSTAIN": 0,
+            "ERROR": 0
+          },
+          "AMBIGUOUS": {
+            "BRANCH_A": 12,
+            "BRANCH_B": 0,
+            "ABSTAIN": 0,
+            "ERROR": 0
+          }
+        },
+        "unknown_auroc": null,
+        "unknown_average_precision": null
+      },
+      "classification_timing": {
+        "samples": 420,
+        "median_ms": 0.0005,
+        "p95_ms": 0.0005,
+        "min_ms": 0.0003,
+        "max_ms": 0.0025
+      }
+    },
+    "global_centroid": {
+      "metrics": {
+        "journeys": 84,
+        "known_journeys": 48,
+        "unknown_journeys": 24,
+        "ambiguous_journeys": 12,
+        "accepted": 0,
+        "accepted_errors": 0,
+        "correct_known": 0,
+        "coverage": 0.0,
+        "selective_risk": null,
+        "known_decision_accuracy": 0.0,
+        "known_macro_f1": 0.0,
+        "known_coverage": 0.0,
+        "unknown_false_accepts": 0,
+        "unknown_false_acceptance_rate": 0.0,
+        "unknown_rejection_rate": 1.0,
+        "ambiguous_abstention_rate": 1.0,
+        "error_count": 0,
+        "confusion_matrix": {
+          "BRANCH_A": {
+            "BRANCH_A": 0,
+            "BRANCH_B": 0,
+            "ABSTAIN": 24,
+            "ERROR": 0
+          },
+          "BRANCH_B": {
+            "BRANCH_A": 0,
+            "BRANCH_B": 0,
+            "ABSTAIN": 24,
+            "ERROR": 0
+          },
+          "UNKNOWN": {
+            "BRANCH_A": 0,
+            "BRANCH_B": 0,
+            "ABSTAIN": 24,
+            "ERROR": 0
+          },
+          "AMBIGUOUS": {
+            "BRANCH_A": 0,
+            "BRANCH_B": 0,
+            "ABSTAIN": 12,
+            "ERROR": 0
+          }
+        },
+        "unknown_auroc": 1.0,
+        "unknown_average_precision": 1.0
+      },
+      "classification_timing": {
+        "samples": 420,
+        "median_ms": 0.0311,
+        "p95_ms": 0.040359999999999945,
+        "min_ms": 0.0303,
+        "max_ms": 0.3004
+      }
+    },
+    "last_frame_nn": {
+      "metrics": {
+        "journeys": 84,
+        "known_journeys": 48,
+        "unknown_journeys": 24,
+        "ambiguous_journeys": 12,
+        "accepted": 58,
+        "accepted_errors": 10,
+        "correct_known": 48,
+        "coverage": 0.6904761904761905,
+        "selective_risk": 0.1724137931034483,
+        "known_decision_accuracy": 1.0,
+        "known_macro_f1": 1.0,
+        "known_coverage": 1.0,
+        "unknown_false_accepts": 0,
+        "unknown_false_acceptance_rate": 0.0,
+        "unknown_rejection_rate": 1.0,
+        "ambiguous_abstention_rate": 0.16666666666666666,
+        "error_count": 0,
+        "confusion_matrix": {
+          "BRANCH_A": {
+            "BRANCH_A": 24,
+            "BRANCH_B": 0,
+            "ABSTAIN": 0,
+            "ERROR": 0
+          },
+          "BRANCH_B": {
+            "BRANCH_A": 0,
+            "BRANCH_B": 24,
+            "ABSTAIN": 0,
+            "ERROR": 0
+          },
+          "UNKNOWN": {
+            "BRANCH_A": 0,
+            "BRANCH_B": 0,
+            "ABSTAIN": 24,
+            "ERROR": 0
+          },
+          "AMBIGUOUS": {
+            "BRANCH_A": 7,
+            "BRANCH_B": 3,
+            "ABSTAIN": 2,
+            "ERROR": 0
+          }
+        },
+        "unknown_auroc": 1.0,
+        "unknown_average_precision": 1.0
+      },
+      "classification_timing": {
+        "samples": 420,
+        "median_ms": 0.2997,
+        "p95_ms": 0.5530599999999998,
+        "min_ms": 0.2754,
+        "max_ms": 0.999
+      }
+    },
+    "mean_frame_nn": {
+      "metrics": {
+        "journeys": 84,
+        "known_journeys": 48,
+        "unknown_journeys": 24,
+        "ambiguous_journeys": 12,
+        "accepted": 48,
+        "accepted_errors": 0,
+        "correct_known": 48,
+        "coverage": 0.5714285714285714,
+        "selective_risk": 0.0,
+        "known_decision_accuracy": 1.0,
+        "known_macro_f1": 1.0,
+        "known_coverage": 1.0,
+        "unknown_false_accepts": 0,
+        "unknown_false_acceptance_rate": 0.0,
+        "unknown_rejection_rate": 1.0,
+        "ambiguous_abstention_rate": 1.0,
+        "error_count": 0,
+        "confusion_matrix": {
+          "BRANCH_A": {
+            "BRANCH_A": 24,
+            "BRANCH_B": 0,
+            "ABSTAIN": 0,
+            "ERROR": 0
+          },
+          "BRANCH_B": {
+            "BRANCH_A": 0,
+            "BRANCH_B": 24,
+            "ABSTAIN": 0,
+            "ERROR": 0
+          },
+          "UNKNOWN": {
+            "BRANCH_A": 0,
+            "BRANCH_B": 0,
+            "ABSTAIN": 24,
+            "ERROR": 0
+          },
+          "AMBIGUOUS": {
+            "BRANCH_A": 0,
+            "BRANCH_B": 0,
+            "ABSTAIN": 12,
+            "ERROR": 0
+          }
+        },
+        "unknown_auroc": 1.0,
+        "unknown_average_precision": 1.0
+      },
+      "classification_timing": {
+        "samples": 420,
+        "median_ms": 0.3849,
+        "p95_ms": 0.7124599999999999,
+        "min_ms": 0.3524,
+        "max_ms": 0.9573
+      }
+    },
+    "dtw_suffix": {
+      "metrics": {
+        "journeys": 84,
+        "known_journeys": 48,
+        "unknown_journeys": 24,
+        "ambiguous_journeys": 12,
+        "accepted": 48,
+        "accepted_errors": 0,
+        "correct_known": 48,
+        "coverage": 0.5714285714285714,
+        "selective_risk": 0.0,
+        "known_decision_accuracy": 1.0,
+        "known_macro_f1": 1.0,
+        "known_coverage": 1.0,
+        "unknown_false_accepts": 0,
+        "unknown_false_acceptance_rate": 0.0,
+        "unknown_rejection_rate": 1.0,
+        "ambiguous_abstention_rate": 1.0,
+        "error_count": 0,
+        "confusion_matrix": {
+          "BRANCH_A": {
+            "BRANCH_A": 24,
+            "BRANCH_B": 0,
+            "ABSTAIN": 0,
+            "ERROR": 0
+          },
+          "BRANCH_B": {
+            "BRANCH_A": 0,
+            "BRANCH_B": 24,
+            "ABSTAIN": 0,
+            "ERROR": 0
+          },
+          "UNKNOWN": {
+            "BRANCH_A": 0,
+            "BRANCH_B": 0,
+            "ABSTAIN": 24,
+            "ERROR": 0
+          },
+          "AMBIGUOUS": {
+            "BRANCH_A": 0,
+            "BRANCH_B": 0,
+            "ABSTAIN": 12,
+            "ERROR": 0
+          }
+        },
+        "unknown_auroc": 1.0,
+        "unknown_average_precision": 1.0
+      },
+      "classification_timing": {
+        "samples": 420,
+        "median_ms": 3.2219499999999996,
+        "p95_ms": 3.9765499999999996,
+        "min_ms": 2.9358,
+        "max_ms": 5.5311
+      }
+    }
+  },
+  "evaluation_elapsed_seconds_before_report_writes": 24.38100820001273,
+  "reproduction_manifest": "data/synthetic/manifest.json",
+  "limitations": [
+    "Cached descriptors only: capture, video decoding, EfficientNet inference, Android, Wi-Fi and audible output are excluded from classifier timing.",
+    "Timing samples repeat the same journeys; repetitions do not increase dataset size. p95 uses NumPy linear interpolation.",
+    "Regression labels/event anchors come from the supplied expectations, not independently annotated ground truth. Original source-video/session/model-weight provenance was not supplied.",
+    "Synthetic vectors exercise decision mechanisms; they do not model real camera, corridor, participant or mobile distributions.",
+    "Fixed-A is a predeclared forced-choice baseline. Other baselines share default heuristic thresholds with differing score distributions; comparison is diagnostic, not calibrated superiority evidence.",
+    "Threshold sweeps describe these cases only. No threshold selection or probability calibration is performed. Unknown AUROC/AP is undefined without known and unknown journeys.",
+    "Memory bytes cover named NumPy arrays, not process peak RSS or complete deployment memory. One-junction/two-branch scope remains.",
+    "Known accuracy and macro F1 include abstentions as missed known labels. Ambiguous cases are excluded from unknown ranking metrics."
+  ]
+}

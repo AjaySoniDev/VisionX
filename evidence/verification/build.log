@@ -1,0 +1,1074 @@
+running egg_info
+writing src\vxn_ramnet.egg-info\PKG-INFO
+writing dependency_links to src\vxn_ramnet.egg-info\dependency_links.txt
+writing entry points to src\vxn_ramnet.egg-info\entry_points.txt
+writing requirements to src\vxn_ramnet.egg-info\requires.txt
+writing top-level names to src\vxn_ramnet.egg-info\top_level.txt
+reading manifest file 'src\vxn_ramnet.egg-info\SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE'
+writing manifest file 'src\vxn_ramnet.egg-info\SOURCES.txt'
+running sdist
+running egg_info
+writing src\vxn_ramnet.egg-info\PKG-INFO
+writing dependency_links to src\vxn_ramnet.egg-info\dependency_links.txt
+writing entry points to src\vxn_ramnet.egg-info\entry_points.txt
+writing requirements to src\vxn_ramnet.egg-info\requires.txt
+writing top-level names to src\vxn_ramnet.egg-info\top_level.txt
+reading manifest file 'src\vxn_ramnet.egg-info\SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE'
+writing manifest file 'src\vxn_ramnet.egg-info\SOURCES.txt'
+running check
+creating vxn_ramnet-0.4.0
+creating vxn_ramnet-0.4.0\.github\workflows
+creating vxn_ramnet-0.4.0\assets\architecture
+creating vxn_ramnet-0.4.0\assets\presentation
+creating vxn_ramnet-0.4.0\benchmarks
+creating vxn_ramnet-0.4.0\benchmarks\manifests
+creating vxn_ramnet-0.4.0\configs
+creating vxn_ramnet-0.4.0\docs
+creating vxn_ramnet-0.4.0\docs\architecture
+creating vxn_ramnet-0.4.0\docs\audit
+creating vxn_ramnet-0.4.0\evidence
+creating vxn_ramnet-0.4.0\evidence\baseline
+creating vxn_ramnet-0.4.0\evidence\notebook04
+creating vxn_ramnet-0.4.0\evidence\notebook04\figures
+creating vxn_ramnet-0.4.0\evidence\notebook04\memory\default
+creating vxn_ramnet-0.4.0\evidence\notebook04\memory\legacy
+creating vxn_ramnet-0.4.0\evidence\notebook04\memory\no_temporal_prior
+creating vxn_ramnet-0.4.0\evidence\notebook04\memory\original_only
+creating vxn_ramnet-0.4.0\evidence\notebook04\window-evidence\vxn_default
+creating vxn_ramnet-0.4.0\evidence\notebook04\window-evidence\vxn_disjoint_best
+creating vxn_ramnet-0.4.0\evidence\notebook04\window-evidence\vxn_legacy
+creating vxn_ramnet-0.4.0\evidence\notebook04\window-evidence\vxn_no_temporal_prior
+creating vxn_ramnet-0.4.0\evidence\notebook04\window-evidence\vxn_original_only
+creating vxn_ramnet-0.4.0\evidence\notebook04\window-evidence\vxn_reference_windows
+creating vxn_ramnet-0.4.0\evidence\synthetic
+creating vxn_ramnet-0.4.0\evidence\synthetic\figures
+creating vxn_ramnet-0.4.0\evidence\synthetic\memory\default
+creating vxn_ramnet-0.4.0\evidence\synthetic\memory\legacy
+creating vxn_ramnet-0.4.0\evidence\synthetic\memory\no_temporal_prior
+creating vxn_ramnet-0.4.0\evidence\synthetic\memory\original_only
+creating vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+creating vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+creating vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+creating vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+creating vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+creating vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+creating vxn_ramnet-0.4.0\evidence\verification
+creating vxn_ramnet-0.4.0\requirements
+creating vxn_ramnet-0.4.0\research
+creating vxn_ramnet-0.4.0\research\notebooks
+creating vxn_ramnet-0.4.0\research\protocols
+creating vxn_ramnet-0.4.0\scripts
+creating vxn_ramnet-0.4.0\src\vxn_ramnet
+creating vxn_ramnet-0.4.0\src\vxn_ramnet.egg-info
+creating vxn_ramnet-0.4.0\src\vxn_ramnet\algorithms
+creating vxn_ramnet-0.4.0\src\vxn_ramnet\config
+creating vxn_ramnet-0.4.0\src\vxn_ramnet\core
+creating vxn_ramnet-0.4.0\src\vxn_ramnet\evaluation
+creating vxn_ramnet-0.4.0\src\vxn_ramnet\io
+creating vxn_ramnet-0.4.0\src\vxn_ramnet\memory
+creating vxn_ramnet-0.4.0\src\vxn_ramnet\observability
+creating vxn_ramnet-0.4.0\src\vxn_ramnet\pipeline
+creating vxn_ramnet-0.4.0\src\vxn_ramnet\reporting
+creating vxn_ramnet-0.4.0\src\vxn_ramnet\schemas
+creating vxn_ramnet-0.4.0\src\vxn_ramnet\vision
+creating vxn_ramnet-0.4.0\src\vxn_ramnet\vision\encoders
+creating vxn_ramnet-0.4.0\tests\fixtures\notebook04
+creating vxn_ramnet-0.4.0\tests\integration
+creating vxn_ramnet-0.4.0\tests\regression
+creating vxn_ramnet-0.4.0\tests\unit
+creating vxn_ramnet-0.4.0\tests\vision
+copying files to vxn_ramnet-0.4.0...
+copying CHANGELOG.md -> vxn_ramnet-0.4.0
+copying CITATION.cff -> vxn_ramnet-0.4.0
+copying CONTRIBUTING.md -> vxn_ramnet-0.4.0
+copying LICENSE -> vxn_ramnet-0.4.0
+copying MANIFEST.in -> vxn_ramnet-0.4.0
+copying README.md -> vxn_ramnet-0.4.0
+copying ROADMAP.md -> vxn_ramnet-0.4.0
+copying SECURITY.md -> vxn_ramnet-0.4.0
+copying pyproject.toml -> vxn_ramnet-0.4.0
+copying .github\workflows\ci.yml -> vxn_ramnet-0.4.0\.github\workflows
+copying assets\architecture\visionx-target-system-architecture.jpeg -> vxn_ramnet-0.4.0\assets\architecture
+copying assets\architecture\vxn-ramnet-route-learning-and-recognition.jpeg -> vxn_ramnet-0.4.0\assets\architecture
+copying assets\presentation\All_Electronic_Components.jpeg -> vxn_ramnet-0.4.0\assets\presentation
+copying assets\presentation\Defensibility_Research.md -> vxn_ramnet-0.4.0\assets\presentation
+copying assets\presentation\README.md -> vxn_ramnet-0.4.0\assets\presentation
+copying assets\presentation\VisionX_01_Proposed_Solution.svg -> vxn_ramnet-0.4.0\assets\presentation
+copying assets\presentation\VisionX_02_System_Architecture.svg -> vxn_ramnet-0.4.0\assets\presentation
+copying assets\presentation\VisionX_03_Technology_Stack.svg -> vxn_ramnet-0.4.0\assets\presentation
+copying assets\presentation\VisionX_04_Impact_Benefits.svg -> vxn_ramnet-0.4.0\assets\presentation
+copying assets\presentation\VisionX_Final_Text_Replacements (1).md -> vxn_ramnet-0.4.0\assets\presentation
+copying assets\presentation\VisionX_SIH26215_Submission_Team_Synexis.pptx -> vxn_ramnet-0.4.0\assets\presentation
+copying benchmarks\README.md -> vxn_ramnet-0.4.0\benchmarks
+copying benchmarks\manifests\notebook04.json -> vxn_ramnet-0.4.0\benchmarks\manifests
+copying configs\README.md -> vxn_ramnet-0.4.0\configs
+copying configs\camera_baseline.yaml -> vxn_ramnet-0.4.0\configs
+copying docs\README.md -> vxn_ramnet-0.4.0\docs
+copying docs\artifact-contract.md -> vxn_ramnet-0.4.0\docs
+copying docs\benchmark-results.md -> vxn_ramnet-0.4.0\docs
+copying docs\business-model.md -> vxn_ramnet-0.4.0\docs
+copying docs\claim-evidence-matrix.md -> vxn_ramnet-0.4.0\docs
+copying docs\evaluation-plan.md -> vxn_ramnet-0.4.0\docs
+copying docs\implementation-roadmap.md -> vxn_ramnet-0.4.0\docs
+copying docs\project-status.md -> vxn_ramnet-0.4.0\docs
+copying docs\reproduction.md -> vxn_ramnet-0.4.0\docs
+copying docs\research-references.md -> vxn_ramnet-0.4.0\docs
+copying docs\safety-and-limitations.md -> vxn_ramnet-0.4.0\docs
+copying docs\technical-debt.md -> vxn_ramnet-0.4.0\docs
+copying docs\visionx-status.json -> vxn_ramnet-0.4.0\docs
+copying docs\architecture\current-camera-baseline.md -> vxn_ramnet-0.4.0\docs\architecture
+copying docs\architecture\target-visionx-system.md -> vxn_ramnet-0.4.0\docs\architecture
+copying docs\audit\analysis.md -> vxn_ramnet-0.4.0\docs\audit
+copying docs\audit\file-review.json -> vxn_ramnet-0.4.0\docs\audit
+copying docs\audit\input-inventory.json -> vxn_ramnet-0.4.0\docs\audit
+copying evidence\README.md -> vxn_ramnet-0.4.0\evidence
+copying evidence\baseline\checks.json -> vxn_ramnet-0.4.0\evidence\baseline
+copying evidence\baseline\coverage.xml -> vxn_ramnet-0.4.0\evidence\baseline
+copying evidence\baseline\mypy.log -> vxn_ramnet-0.4.0\evidence\baseline
+copying evidence\baseline\pytest-coverage.log -> vxn_ramnet-0.4.0\evidence\baseline
+copying evidence\baseline\pytest.xml -> vxn_ramnet-0.4.0\evidence\baseline
+copying evidence\baseline\ruff.log -> vxn_ramnet-0.4.0\evidence\baseline
+copying evidence\baseline\website-links.log -> vxn_ramnet-0.4.0\evidence\baseline
+copying evidence\notebook04\checksums.json -> vxn_ramnet-0.4.0\evidence\notebook04
+copying evidence\notebook04\decisions.csv -> vxn_ramnet-0.4.0\evidence\notebook04
+copying evidence\notebook04\manifest.snapshot.json -> vxn_ramnet-0.4.0\evidence\notebook04
+copying evidence\notebook04\report.json -> vxn_ramnet-0.4.0\evidence\notebook04
+copying evidence\notebook04\report.md -> vxn_ramnet-0.4.0\evidence\notebook04
+copying evidence\notebook04\threshold-sweep.csv -> vxn_ramnet-0.4.0\evidence\notebook04
+copying evidence\notebook04\timings.csv -> vxn_ramnet-0.4.0\evidence\notebook04
+copying evidence\notebook04\figures\provenance.json -> vxn_ramnet-0.4.0\evidence\notebook04\figures
+copying evidence\notebook04\memory\default\route-memory.json -> vxn_ramnet-0.4.0\evidence\notebook04\memory\default
+copying evidence\notebook04\memory\legacy\route-memory.json -> vxn_ramnet-0.4.0\evidence\notebook04\memory\legacy
+copying evidence\notebook04\memory\no_temporal_prior\route-memory.json -> vxn_ramnet-0.4.0\evidence\notebook04\memory\no_temporal_prior
+copying evidence\notebook04\memory\original_only\route-memory.json -> vxn_ramnet-0.4.0\evidence\notebook04\memory\original_only
+copying evidence\notebook04\window-evidence\vxn_default\query_route_1.json -> vxn_ramnet-0.4.0\evidence\notebook04\window-evidence\vxn_default
+copying evidence\notebook04\window-evidence\vxn_default\query_route_2.json -> vxn_ramnet-0.4.0\evidence\notebook04\window-evidence\vxn_default
+copying evidence\notebook04\window-evidence\vxn_disjoint_best\query_route_1.json -> vxn_ramnet-0.4.0\evidence\notebook04\window-evidence\vxn_disjoint_best
+copying evidence\notebook04\window-evidence\vxn_disjoint_best\query_route_2.json -> vxn_ramnet-0.4.0\evidence\notebook04\window-evidence\vxn_disjoint_best
+copying evidence\notebook04\window-evidence\vxn_legacy\query_route_1.json -> vxn_ramnet-0.4.0\evidence\notebook04\window-evidence\vxn_legacy
+copying evidence\notebook04\window-evidence\vxn_legacy\query_route_2.json -> vxn_ramnet-0.4.0\evidence\notebook04\window-evidence\vxn_legacy
+copying evidence\notebook04\window-evidence\vxn_no_temporal_prior\query_route_1.json -> vxn_ramnet-0.4.0\evidence\notebook04\window-evidence\vxn_no_temporal_prior
+copying evidence\notebook04\window-evidence\vxn_no_temporal_prior\query_route_2.json -> vxn_ramnet-0.4.0\evidence\notebook04\window-evidence\vxn_no_temporal_prior
+copying evidence\notebook04\window-evidence\vxn_original_only\query_route_1.json -> vxn_ramnet-0.4.0\evidence\notebook04\window-evidence\vxn_original_only
+copying evidence\notebook04\window-evidence\vxn_original_only\query_route_2.json -> vxn_ramnet-0.4.0\evidence\notebook04\window-evidence\vxn_original_only
+copying evidence\notebook04\window-evidence\vxn_reference_windows\query_route_1.json -> vxn_ramnet-0.4.0\evidence\notebook04\window-evidence\vxn_reference_windows
+copying evidence\notebook04\window-evidence\vxn_reference_windows\query_route_2.json -> vxn_ramnet-0.4.0\evidence\notebook04\window-evidence\vxn_reference_windows
+copying evidence\synthetic\checksums.json -> vxn_ramnet-0.4.0\evidence\synthetic
+copying evidence\synthetic\decisions.csv -> vxn_ramnet-0.4.0\evidence\synthetic
+copying evidence\synthetic\manifest.snapshot.json -> vxn_ramnet-0.4.0\evidence\synthetic
+copying evidence\synthetic\report.json -> vxn_ramnet-0.4.0\evidence\synthetic
+copying evidence\synthetic\report.md -> vxn_ramnet-0.4.0\evidence\synthetic
+copying evidence\synthetic\threshold-sweep.csv -> vxn_ramnet-0.4.0\evidence\synthetic
+copying evidence\synthetic\timings.csv -> vxn_ramnet-0.4.0\evidence\synthetic
+copying evidence\synthetic\figures\provenance.json -> vxn_ramnet-0.4.0\evidence\synthetic\figures
+copying evidence\synthetic\memory\default\route-memory.json -> vxn_ramnet-0.4.0\evidence\synthetic\memory\default
+copying evidence\synthetic\memory\legacy\route-memory.json -> vxn_ramnet-0.4.0\evidence\synthetic\memory\legacy
+copying evidence\synthetic\memory\no_temporal_prior\route-memory.json -> vxn_ramnet-0.4.0\evidence\synthetic\memory\no_temporal_prior
+copying evidence\synthetic\memory\original_only\route-memory.json -> vxn_ramnet-0.4.0\evidence\synthetic\memory\original_only
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-ambiguous-00.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-ambiguous-01.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-ambiguous-02.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-ambiguous-03.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-ambiguous-04.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-ambiguous-05.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-ambiguous-06.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-ambiguous-07.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-ambiguous-08.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-ambiguous-09.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-ambiguous-10.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-ambiguous-11.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-branch_a-00.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-branch_a-01.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-branch_a-02.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-branch_a-03.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-branch_a-04.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-branch_a-05.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-branch_a-06.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-branch_a-07.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-branch_a-08.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-branch_a-09.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-branch_a-10.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-branch_a-11.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-branch_a-12.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-branch_a-13.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-branch_a-14.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-branch_a-15.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-branch_a-16.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-branch_a-17.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-branch_a-18.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-branch_a-19.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-branch_a-20.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-branch_a-21.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-branch_a-22.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-branch_a-23.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-branch_b-00.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-branch_b-01.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-branch_b-02.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-branch_b-03.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-branch_b-04.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-branch_b-05.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-branch_b-06.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-branch_b-07.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-branch_b-08.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-branch_b-09.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-branch_b-10.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-branch_b-11.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-branch_b-12.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-branch_b-13.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-branch_b-14.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-branch_b-15.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-branch_b-16.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-branch_b-17.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-branch_b-18.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-branch_b-19.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-branch_b-20.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-branch_b-21.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-branch_b-22.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-branch_b-23.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-unknown-00.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-unknown-01.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-unknown-02.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-unknown-03.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-unknown-04.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-unknown-05.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-unknown-06.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-unknown-07.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-unknown-08.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-unknown-09.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-unknown-10.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-unknown-11.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-unknown-12.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-unknown-13.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-unknown-14.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-unknown-15.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-unknown-16.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-unknown-17.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-unknown-18.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-unknown-19.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-unknown-20.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-unknown-21.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-unknown-22.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_default\synthetic-unknown-23.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_default
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-ambiguous-00.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-ambiguous-01.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-ambiguous-02.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-ambiguous-03.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-ambiguous-04.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-ambiguous-05.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-ambiguous-06.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-ambiguous-07.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-ambiguous-08.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-ambiguous-09.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-ambiguous-10.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-ambiguous-11.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-branch_a-00.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-branch_a-01.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-branch_a-02.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-branch_a-03.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-branch_a-04.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-branch_a-05.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-branch_a-06.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-branch_a-07.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-branch_a-08.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-branch_a-09.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-branch_a-10.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-branch_a-11.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-branch_a-12.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-branch_a-13.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-branch_a-14.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-branch_a-15.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-branch_a-16.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-branch_a-17.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-branch_a-18.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-branch_a-19.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-branch_a-20.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-branch_a-21.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-branch_a-22.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-branch_a-23.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-branch_b-00.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-branch_b-01.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-branch_b-02.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-branch_b-03.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-branch_b-04.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-branch_b-05.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-branch_b-06.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-branch_b-07.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-branch_b-08.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-branch_b-09.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-branch_b-10.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-branch_b-11.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-branch_b-12.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-branch_b-13.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-branch_b-14.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-branch_b-15.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-branch_b-16.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-branch_b-17.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-branch_b-18.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-branch_b-19.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-branch_b-20.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-branch_b-21.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-branch_b-22.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-branch_b-23.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-unknown-00.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-unknown-01.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-unknown-02.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-unknown-03.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-unknown-04.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-unknown-05.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-unknown-06.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-unknown-07.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-unknown-08.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-unknown-09.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-unknown-10.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-unknown-11.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-unknown-12.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-unknown-13.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-unknown-14.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-unknown-15.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-unknown-16.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-unknown-17.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-unknown-18.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-unknown-19.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-unknown-20.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-unknown-21.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-unknown-22.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_disjoint_best\synthetic-unknown-23.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_disjoint_best
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-ambiguous-00.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-ambiguous-01.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-ambiguous-02.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-ambiguous-03.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-ambiguous-04.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-ambiguous-05.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-ambiguous-06.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-ambiguous-07.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-ambiguous-08.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-ambiguous-09.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-ambiguous-10.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-ambiguous-11.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-branch_a-00.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-branch_a-01.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-branch_a-02.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-branch_a-03.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-branch_a-04.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-branch_a-05.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-branch_a-06.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-branch_a-07.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-branch_a-08.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-branch_a-09.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-branch_a-10.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-branch_a-11.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-branch_a-12.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-branch_a-13.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-branch_a-14.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-branch_a-15.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-branch_a-16.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-branch_a-17.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-branch_a-18.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-branch_a-19.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-branch_a-20.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-branch_a-21.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-branch_a-22.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-branch_a-23.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-branch_b-00.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-branch_b-01.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-branch_b-02.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-branch_b-03.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-branch_b-04.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-branch_b-05.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-branch_b-06.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-branch_b-07.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-branch_b-08.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-branch_b-09.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-branch_b-10.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-branch_b-11.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-branch_b-12.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-branch_b-13.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-branch_b-14.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-branch_b-15.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-branch_b-16.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-branch_b-17.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-branch_b-18.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-branch_b-19.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-branch_b-20.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-branch_b-21.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-branch_b-22.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-branch_b-23.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-unknown-00.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-unknown-01.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-unknown-02.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-unknown-03.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-unknown-04.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-unknown-05.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-unknown-06.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-unknown-07.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-unknown-08.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-unknown-09.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-unknown-10.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-unknown-11.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-unknown-12.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-unknown-13.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-unknown-14.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-unknown-15.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-unknown-16.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-unknown-17.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-unknown-18.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-unknown-19.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-unknown-20.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-unknown-21.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-unknown-22.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_legacy\synthetic-unknown-23.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_legacy
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-ambiguous-00.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-ambiguous-01.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-ambiguous-02.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-ambiguous-03.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-ambiguous-04.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-ambiguous-05.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-ambiguous-06.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-ambiguous-07.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-ambiguous-08.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-ambiguous-09.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-ambiguous-10.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-ambiguous-11.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-branch_a-00.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-branch_a-01.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-branch_a-02.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-branch_a-03.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-branch_a-04.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-branch_a-05.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-branch_a-06.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-branch_a-07.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-branch_a-08.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-branch_a-09.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-branch_a-10.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-branch_a-11.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-branch_a-12.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-branch_a-13.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-branch_a-14.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-branch_a-15.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-branch_a-16.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-branch_a-17.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-branch_a-18.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-branch_a-19.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-branch_a-20.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-branch_a-21.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-branch_a-22.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-branch_a-23.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-branch_b-00.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-branch_b-01.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-branch_b-02.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-branch_b-03.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-branch_b-04.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-branch_b-05.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-branch_b-06.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-branch_b-07.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-branch_b-08.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-branch_b-09.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-branch_b-10.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-branch_b-11.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-branch_b-12.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-branch_b-13.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-branch_b-14.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-branch_b-15.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-branch_b-16.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-branch_b-17.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-branch_b-18.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-branch_b-19.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-branch_b-20.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-branch_b-21.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-branch_b-22.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-branch_b-23.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-unknown-00.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-unknown-01.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-unknown-02.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-unknown-03.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-unknown-04.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-unknown-05.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-unknown-06.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-unknown-07.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-unknown-08.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-unknown-09.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-unknown-10.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-unknown-11.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-unknown-12.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-unknown-13.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-unknown-14.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-unknown-15.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-unknown-16.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-unknown-17.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-unknown-18.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-unknown-19.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-unknown-20.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-unknown-21.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-unknown-22.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_no_temporal_prior\synthetic-unknown-23.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_no_temporal_prior
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-ambiguous-00.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-ambiguous-01.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-ambiguous-02.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-ambiguous-03.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-ambiguous-04.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-ambiguous-05.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-ambiguous-06.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-ambiguous-07.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-ambiguous-08.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-ambiguous-09.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-ambiguous-10.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-ambiguous-11.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-branch_a-00.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-branch_a-01.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-branch_a-02.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-branch_a-03.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-branch_a-04.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-branch_a-05.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-branch_a-06.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-branch_a-07.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-branch_a-08.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-branch_a-09.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-branch_a-10.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-branch_a-11.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-branch_a-12.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-branch_a-13.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-branch_a-14.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-branch_a-15.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-branch_a-16.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-branch_a-17.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-branch_a-18.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-branch_a-19.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-branch_a-20.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-branch_a-21.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-branch_a-22.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-branch_a-23.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-branch_b-00.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-branch_b-01.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-branch_b-02.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-branch_b-03.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-branch_b-04.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-branch_b-05.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-branch_b-06.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-branch_b-07.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-branch_b-08.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-branch_b-09.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-branch_b-10.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-branch_b-11.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-branch_b-12.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-branch_b-13.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-branch_b-14.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-branch_b-15.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-branch_b-16.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-branch_b-17.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-branch_b-18.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-branch_b-19.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-branch_b-20.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-branch_b-21.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-branch_b-22.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-branch_b-23.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-unknown-00.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-unknown-01.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-unknown-02.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-unknown-03.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-unknown-04.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-unknown-05.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-unknown-06.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-unknown-07.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-unknown-08.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-unknown-09.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-unknown-10.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-unknown-11.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-unknown-12.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-unknown-13.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-unknown-14.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-unknown-15.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-unknown-16.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-unknown-17.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-unknown-18.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-unknown-19.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-unknown-20.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-unknown-21.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-unknown-22.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_original_only\synthetic-unknown-23.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_original_only
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-ambiguous-00.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-ambiguous-01.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-ambiguous-02.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-ambiguous-03.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-ambiguous-04.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-ambiguous-05.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-ambiguous-06.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-ambiguous-07.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-ambiguous-08.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-ambiguous-09.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-ambiguous-10.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-ambiguous-11.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-branch_a-00.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-branch_a-01.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-branch_a-02.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-branch_a-03.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-branch_a-04.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-branch_a-05.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-branch_a-06.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-branch_a-07.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-branch_a-08.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-branch_a-09.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-branch_a-10.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-branch_a-11.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-branch_a-12.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-branch_a-13.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-branch_a-14.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-branch_a-15.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-branch_a-16.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-branch_a-17.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-branch_a-18.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-branch_a-19.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-branch_a-20.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-branch_a-21.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-branch_a-22.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-branch_a-23.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-branch_b-00.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-branch_b-01.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-branch_b-02.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-branch_b-03.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-branch_b-04.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-branch_b-05.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-branch_b-06.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-branch_b-07.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-branch_b-08.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-branch_b-09.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-branch_b-10.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-branch_b-11.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-branch_b-12.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-branch_b-13.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-branch_b-14.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-branch_b-15.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-branch_b-16.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-branch_b-17.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-branch_b-18.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-branch_b-19.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-branch_b-20.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-branch_b-21.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-branch_b-22.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-branch_b-23.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-unknown-00.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-unknown-01.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-unknown-02.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-unknown-03.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-unknown-04.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-unknown-05.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-unknown-06.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-unknown-07.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-unknown-08.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-unknown-09.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-unknown-10.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-unknown-11.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-unknown-12.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-unknown-13.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-unknown-14.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-unknown-15.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-unknown-16.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-unknown-17.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-unknown-18.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-unknown-19.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-unknown-20.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-unknown-21.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-unknown-22.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\synthetic\window-evidence\vxn_reference_windows\synthetic-unknown-23.json -> vxn_ramnet-0.4.0\evidence\synthetic\window-evidence\vxn_reference_windows
+copying evidence\verification\checks.json -> vxn_ramnet-0.4.0\evidence\verification
+copying evidence\verification\coverage-311.json -> vxn_ramnet-0.4.0\evidence\verification
+copying evidence\verification\coverage.json -> vxn_ramnet-0.4.0\evidence\verification
+copying evidence\verification\coverage.xml -> vxn_ramnet-0.4.0\evidence\verification
+copying evidence\verification\dependencies.log -> vxn_ramnet-0.4.0\evidence\verification
+copying evidence\verification\documentation.log -> vxn_ramnet-0.4.0\evidence\verification
+copying evidence\verification\evaluate-notebook04.log -> vxn_ramnet-0.4.0\evidence\verification
+copying evidence\verification\evaluate-synthetic.log -> vxn_ramnet-0.4.0\evidence\verification
+copying evidence\verification\format.log -> vxn_ramnet-0.4.0\evidence\verification
+copying evidence\verification\identity-notebook04.log -> vxn_ramnet-0.4.0\evidence\verification
+copying evidence\verification\identity-synthetic.log -> vxn_ramnet-0.4.0\evidence\verification
+copying evidence\verification\mypy.log -> vxn_ramnet-0.4.0\evidence\verification
+copying evidence\verification\plot-notebook04.log -> vxn_ramnet-0.4.0\evidence\verification
+copying evidence\verification\plot-synthetic.log -> vxn_ramnet-0.4.0\evidence\verification
+copying evidence\verification\pytest-311.xml -> vxn_ramnet-0.4.0\evidence\verification
+copying evidence\verification\pytest.log -> vxn_ramnet-0.4.0\evidence\verification
+copying evidence\verification\pytest.xml -> vxn_ramnet-0.4.0\evidence\verification
+copying evidence\verification\python311-mypy.log -> vxn_ramnet-0.4.0\evidence\verification
+copying evidence\verification\python311-pytest.log -> vxn_ramnet-0.4.0\evidence\verification
+copying evidence\verification\ruff.log -> vxn_ramnet-0.4.0\evidence\verification
+copying requirements\README.md -> vxn_ramnet-0.4.0\requirements
+copying requirements\core-dev.lock -> vxn_ramnet-0.4.0\requirements
+copying requirements\vision-ui.lock -> vxn_ramnet-0.4.0\requirements
+copying research\README.md -> vxn_ramnet-0.4.0\research
+copying research\notebooks\01-visual-route-memory-baseline.ipynb -> vxn_ramnet-0.4.0\research\notebooks
+copying research\notebooks\02-unknown-route-memory-insertion.ipynb -> vxn_ramnet-0.4.0\research\notebooks
+copying research\notebooks\03-shared-prefix-two-route-dtw.ipynb -> vxn_ramnet-0.4.0\research\notebooks
+copying research\notebooks\04-single-video-backtracking-branch-graph.ipynb -> vxn_ramnet-0.4.0\research\notebooks
+copying research\protocols\experiment-template.md -> vxn_ramnet-0.4.0\research\protocols
+copying scripts\check_docs.py -> vxn_ramnet-0.4.0\scripts
+copying scripts\plot_evidence.py -> vxn_ramnet-0.4.0\scripts
+copying scripts\run_pipeline.py -> vxn_ramnet-0.4.0\scripts
+copying scripts\verify_evidence.py -> vxn_ramnet-0.4.0\scripts
+copying src\vxn_ramnet\__init__.py -> vxn_ramnet-0.4.0\src\vxn_ramnet
+copying src\vxn_ramnet\__main__.py -> vxn_ramnet-0.4.0\src\vxn_ramnet
+copying src\vxn_ramnet\cli.py -> vxn_ramnet-0.4.0\src\vxn_ramnet
+copying src\vxn_ramnet\py.typed -> vxn_ramnet-0.4.0\src\vxn_ramnet
+copying src\vxn_ramnet\recognition.py -> vxn_ramnet-0.4.0\src\vxn_ramnet
+copying src\vxn_ramnet.egg-info\PKG-INFO -> vxn_ramnet-0.4.0\src\vxn_ramnet.egg-info
+copying src\vxn_ramnet.egg-info\SOURCES.txt -> vxn_ramnet-0.4.0\src\vxn_ramnet.egg-info
+copying src\vxn_ramnet.egg-info\dependency_links.txt -> vxn_ramnet-0.4.0\src\vxn_ramnet.egg-info
+copying src\vxn_ramnet.egg-info\entry_points.txt -> vxn_ramnet-0.4.0\src\vxn_ramnet.egg-info
+copying src\vxn_ramnet.egg-info\requires.txt -> vxn_ramnet-0.4.0\src\vxn_ramnet.egg-info
+copying src\vxn_ramnet.egg-info\top_level.txt -> vxn_ramnet-0.4.0\src\vxn_ramnet.egg-info
+copying src\vxn_ramnet\algorithms\__init__.py -> vxn_ramnet-0.4.0\src\vxn_ramnet\algorithms
+copying src\vxn_ramnet\algorithms\decision.py -> vxn_ramnet-0.4.0\src\vxn_ramnet\algorithms
+copying src\vxn_ramnet\algorithms\junction.py -> vxn_ramnet-0.4.0\src\vxn_ramnet\algorithms
+copying src\vxn_ramnet\algorithms\scoring.py -> vxn_ramnet-0.4.0\src\vxn_ramnet\algorithms
+copying src\vxn_ramnet\algorithms\segmentation.py -> vxn_ramnet-0.4.0\src\vxn_ramnet\algorithms
+copying src\vxn_ramnet\algorithms\similarity.py -> vxn_ramnet-0.4.0\src\vxn_ramnet\algorithms
+copying src\vxn_ramnet\algorithms\turnaround.py -> vxn_ramnet-0.4.0\src\vxn_ramnet\algorithms
+copying src\vxn_ramnet\config\__init__.py -> vxn_ramnet-0.4.0\src\vxn_ramnet\config
+copying src\vxn_ramnet\config\loader.py -> vxn_ramnet-0.4.0\src\vxn_ramnet\config
+copying src\vxn_ramnet\config\models.py -> vxn_ramnet-0.4.0\src\vxn_ramnet\config
+copying src\vxn_ramnet\core\__init__.py -> vxn_ramnet-0.4.0\src\vxn_ramnet\core
+copying src\vxn_ramnet\core\enums.py -> vxn_ramnet-0.4.0\src\vxn_ramnet\core
+copying src\vxn_ramnet\core\exceptions.py -> vxn_ramnet-0.4.0\src\vxn_ramnet\core
+copying src\vxn_ramnet\core\types.py -> vxn_ramnet-0.4.0\src\vxn_ramnet\core
+copying src\vxn_ramnet\core\version.py -> vxn_ramnet-0.4.0\src\vxn_ramnet\core
+copying src\vxn_ramnet\evaluation\__init__.py -> vxn_ramnet-0.4.0\src\vxn_ramnet\evaluation
+copying src\vxn_ramnet\evaluation\baselines.py -> vxn_ramnet-0.4.0\src\vxn_ramnet\evaluation
+copying src\vxn_ramnet\evaluation\manifest.py -> vxn_ramnet-0.4.0\src\vxn_ramnet\evaluation
+copying src\vxn_ramnet\evaluation\metrics.py -> vxn_ramnet-0.4.0\src\vxn_ramnet\evaluation
+copying src\vxn_ramnet\evaluation\runner.py -> vxn_ramnet-0.4.0\src\vxn_ramnet\evaluation
+copying src\vxn_ramnet\evaluation\synthetic.py -> vxn_ramnet-0.4.0\src\vxn_ramnet\evaluation
+copying src\vxn_ramnet\io\__init__.py -> vxn_ramnet-0.4.0\src\vxn_ramnet\io
+copying src\vxn_ramnet\io\atomic.py -> vxn_ramnet-0.4.0\src\vxn_ramnet\io
+copying src\vxn_ramnet\io\checksums.py -> vxn_ramnet-0.4.0\src\vxn_ramnet\io
+copying src\vxn_ramnet\io\json.py -> vxn_ramnet-0.4.0\src\vxn_ramnet\io
+copying src\vxn_ramnet\io\npz.py -> vxn_ramnet-0.4.0\src\vxn_ramnet\io
+copying src\vxn_ramnet\io\paths.py -> vxn_ramnet-0.4.0\src\vxn_ramnet\io
+copying src\vxn_ramnet\io\schema.py -> vxn_ramnet-0.4.0\src\vxn_ramnet\io
+copying src\vxn_ramnet\io\video.py -> vxn_ramnet-0.4.0\src\vxn_ramnet\io
+copying src\vxn_ramnet\memory\__init__.py -> vxn_ramnet-0.4.0\src\vxn_ramnet\memory
+copying src\vxn_ramnet\memory\schema.py -> vxn_ramnet-0.4.0\src\vxn_ramnet\memory
+copying src\vxn_ramnet\memory\store.py -> vxn_ramnet-0.4.0\src\vxn_ramnet\memory
+copying src\vxn_ramnet\observability\__init__.py -> vxn_ramnet-0.4.0\src\vxn_ramnet\observability
+copying src\vxn_ramnet\observability\logging.py -> vxn_ramnet-0.4.0\src\vxn_ramnet\observability
+copying src\vxn_ramnet\observability\manifest.py -> vxn_ramnet-0.4.0\src\vxn_ramnet\observability
+copying src\vxn_ramnet\observability\provenance.py -> vxn_ramnet-0.4.0\src\vxn_ramnet\observability
+copying src\vxn_ramnet\pipeline\__init__.py -> vxn_ramnet-0.4.0\src\vxn_ramnet\pipeline
+copying src\vxn_ramnet\pipeline\artifacts.py -> vxn_ramnet-0.4.0\src\vxn_ramnet\pipeline
+copying src\vxn_ramnet\pipeline\runner.py -> vxn_ramnet-0.4.0\src\vxn_ramnet\pipeline
+copying src\vxn_ramnet\pipeline\serialization.py -> vxn_ramnet-0.4.0\src\vxn_ramnet\pipeline
+copying src\vxn_ramnet\reporting\__init__.py -> vxn_ramnet-0.4.0\src\vxn_ramnet\reporting
+copying src\vxn_ramnet\reporting\sanitize.py -> vxn_ramnet-0.4.0\src\vxn_ramnet\reporting
+copying src\vxn_ramnet\reporting\writers.py -> vxn_ramnet-0.4.0\src\vxn_ramnet\reporting
+copying src\vxn_ramnet\schemas\__init__.py -> vxn_ramnet-0.4.0\src\vxn_ramnet\schemas
+copying src\vxn_ramnet\schemas\benchmark-report.schema.json -> vxn_ramnet-0.4.0\src\vxn_ramnet\schemas
+copying src\vxn_ramnet\schemas\route-memory-metadata.schema.json -> vxn_ramnet-0.4.0\src\vxn_ramnet\schemas
+copying src\vxn_ramnet\schemas\run-summary.schema.json -> vxn_ramnet-0.4.0\src\vxn_ramnet\schemas
+copying src\vxn_ramnet\vision\__init__.py -> vxn_ramnet-0.4.0\src\vxn_ramnet\vision
+copying src\vxn_ramnet\vision\encode.py -> vxn_ramnet-0.4.0\src\vxn_ramnet\vision
+copying src\vxn_ramnet\vision\preprocessing.py -> vxn_ramnet-0.4.0\src\vxn_ramnet\vision
+copying src\vxn_ramnet\vision\encoders\__init__.py -> vxn_ramnet-0.4.0\src\vxn_ramnet\vision\encoders
+copying src\vxn_ramnet\vision\encoders\base.py -> vxn_ramnet-0.4.0\src\vxn_ramnet\vision\encoders
+copying src\vxn_ramnet\vision\encoders\efficientnet.py -> vxn_ramnet-0.4.0\src\vxn_ramnet\vision\encoders
+copying tests\fixtures\notebook04\expected.json -> vxn_ramnet-0.4.0\tests\fixtures\notebook04
+copying tests\fixtures\notebook04\learning.npz -> vxn_ramnet-0.4.0\tests\fixtures\notebook04
+copying tests\fixtures\notebook04\query_route_1.npz -> vxn_ramnet-0.4.0\tests\fixtures\notebook04
+copying tests\fixtures\notebook04\query_route_2.npz -> vxn_ramnet-0.4.0\tests\fixtures\notebook04
+copying tests\integration\test_evaluation.py -> vxn_ramnet-0.4.0\tests\integration
+copying tests\integration\test_pipeline.py -> vxn_ramnet-0.4.0\tests\integration
+copying tests\integration\test_preflight_safety.py -> vxn_ramnet-0.4.0\tests\integration
+copying tests\integration\test_ui.py -> vxn_ramnet-0.4.0\tests\integration
+copying tests\regression\test_notebook04_baseline.py -> vxn_ramnet-0.4.0\tests\regression
+copying tests\regression\test_score_cache_parity.py -> vxn_ramnet-0.4.0\tests\regression
+copying tests\unit\test_cli_and_config_io.py -> vxn_ramnet-0.4.0\tests\unit
+copying tests\unit\test_config.py -> vxn_ramnet-0.4.0\tests\unit
+copying tests\unit\test_decision.py -> vxn_ramnet-0.4.0\tests\unit
+copying tests\unit\test_evaluation_metrics.py -> vxn_ramnet-0.4.0\tests\unit
+copying tests\unit\test_memory.py -> vxn_ramnet-0.4.0\tests\unit
+copying tests\unit\test_npz.py -> vxn_ramnet-0.4.0\tests\unit
+copying tests\unit\test_numerical_boundaries.py -> vxn_ramnet-0.4.0\tests\unit
+copying tests\unit\test_paths.py -> vxn_ramnet-0.4.0\tests\unit
+copying tests\unit\test_recognition_guards.py -> vxn_ramnet-0.4.0\tests\unit
+copying tests\unit\test_reporting.py -> vxn_ramnet-0.4.0\tests\unit
+copying tests\unit\test_segmentation.py -> vxn_ramnet-0.4.0\tests\unit
+copying tests\unit\test_similarity.py -> vxn_ramnet-0.4.0\tests\unit
+copying tests\unit\test_video.py -> vxn_ramnet-0.4.0\tests\unit
+copying tests\vision\test_encoder.py -> vxn_ramnet-0.4.0\tests\vision
+Writing vxn_ramnet-0.4.0\setup.cfg
+Creating tar archive
+removing 'vxn_ramnet-0.4.0' (and everything under it)
+running egg_info
+writing src\vxn_ramnet.egg-info\PKG-INFO
+writing dependency_links to src\vxn_ramnet.egg-info\dependency_links.txt
+writing entry points to src\vxn_ramnet.egg-info\entry_points.txt
+writing requirements to src\vxn_ramnet.egg-info\requires.txt
+writing top-level names to src\vxn_ramnet.egg-info\top_level.txt
+reading manifest file 'src\vxn_ramnet.egg-info\SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE'
+writing manifest file 'src\vxn_ramnet.egg-info\SOURCES.txt'
+running bdist_wheel
+running build
+running build_py
+creating build\lib\vxn_ramnet
+copying src\vxn_ramnet\cli.py -> build\lib\vxn_ramnet
+copying src\vxn_ramnet\recognition.py -> build\lib\vxn_ramnet
+copying src\vxn_ramnet\__init__.py -> build\lib\vxn_ramnet
+copying src\vxn_ramnet\__main__.py -> build\lib\vxn_ramnet
+creating build\lib\vxn_ramnet\algorithms
+copying src\vxn_ramnet\algorithms\decision.py -> build\lib\vxn_ramnet\algorithms
+copying src\vxn_ramnet\algorithms\junction.py -> build\lib\vxn_ramnet\algorithms
+copying src\vxn_ramnet\algorithms\scoring.py -> build\lib\vxn_ramnet\algorithms
+copying src\vxn_ramnet\algorithms\segmentation.py -> build\lib\vxn_ramnet\algorithms
+copying src\vxn_ramnet\algorithms\similarity.py -> build\lib\vxn_ramnet\algorithms
+copying src\vxn_ramnet\algorithms\turnaround.py -> build\lib\vxn_ramnet\algorithms
+copying src\vxn_ramnet\algorithms\__init__.py -> build\lib\vxn_ramnet\algorithms
+creating build\lib\vxn_ramnet\config
+copying src\vxn_ramnet\config\loader.py -> build\lib\vxn_ramnet\config
+copying src\vxn_ramnet\config\models.py -> build\lib\vxn_ramnet\config
+copying src\vxn_ramnet\config\__init__.py -> build\lib\vxn_ramnet\config
+creating build\lib\vxn_ramnet\core
+copying src\vxn_ramnet\core\enums.py -> build\lib\vxn_ramnet\core
+copying src\vxn_ramnet\core\exceptions.py -> build\lib\vxn_ramnet\core
+copying src\vxn_ramnet\core\types.py -> build\lib\vxn_ramnet\core
+copying src\vxn_ramnet\core\version.py -> build\lib\vxn_ramnet\core
+copying src\vxn_ramnet\core\__init__.py -> build\lib\vxn_ramnet\core
+creating build\lib\vxn_ramnet\evaluation
+copying src\vxn_ramnet\evaluation\baselines.py -> build\lib\vxn_ramnet\evaluation
+copying src\vxn_ramnet\evaluation\manifest.py -> build\lib\vxn_ramnet\evaluation
+copying src\vxn_ramnet\evaluation\metrics.py -> build\lib\vxn_ramnet\evaluation
+copying src\vxn_ramnet\evaluation\runner.py -> build\lib\vxn_ramnet\evaluation
+copying src\vxn_ramnet\evaluation\synthetic.py -> build\lib\vxn_ramnet\evaluation
+copying src\vxn_ramnet\evaluation\__init__.py -> build\lib\vxn_ramnet\evaluation
+creating build\lib\vxn_ramnet\io
+copying src\vxn_ramnet\io\atomic.py -> build\lib\vxn_ramnet\io
+copying src\vxn_ramnet\io\checksums.py -> build\lib\vxn_ramnet\io
+copying src\vxn_ramnet\io\json.py -> build\lib\vxn_ramnet\io
+copying src\vxn_ramnet\io\npz.py -> build\lib\vxn_ramnet\io
+copying src\vxn_ramnet\io\paths.py -> build\lib\vxn_ramnet\io
+copying src\vxn_ramnet\io\schema.py -> build\lib\vxn_ramnet\io
+copying src\vxn_ramnet\io\video.py -> build\lib\vxn_ramnet\io
+copying src\vxn_ramnet\io\__init__.py -> build\lib\vxn_ramnet\io
+creating build\lib\vxn_ramnet\memory
+copying src\vxn_ramnet\memory\schema.py -> build\lib\vxn_ramnet\memory
+copying src\vxn_ramnet\memory\store.py -> build\lib\vxn_ramnet\memory
+copying src\vxn_ramnet\memory\__init__.py -> build\lib\vxn_ramnet\memory
+creating build\lib\vxn_ramnet\observability
+copying src\vxn_ramnet\observability\logging.py -> build\lib\vxn_ramnet\observability
+copying src\vxn_ramnet\observability\manifest.py -> build\lib\vxn_ramnet\observability
+copying src\vxn_ramnet\observability\provenance.py -> build\lib\vxn_ramnet\observability
+copying src\vxn_ramnet\observability\__init__.py -> build\lib\vxn_ramnet\observability
+creating build\lib\vxn_ramnet\pipeline
+copying src\vxn_ramnet\pipeline\artifacts.py -> build\lib\vxn_ramnet\pipeline
+copying src\vxn_ramnet\pipeline\runner.py -> build\lib\vxn_ramnet\pipeline
+copying src\vxn_ramnet\pipeline\serialization.py -> build\lib\vxn_ramnet\pipeline
+copying src\vxn_ramnet\pipeline\__init__.py -> build\lib\vxn_ramnet\pipeline
+creating build\lib\vxn_ramnet\reporting
+copying src\vxn_ramnet\reporting\sanitize.py -> build\lib\vxn_ramnet\reporting
+copying src\vxn_ramnet\reporting\writers.py -> build\lib\vxn_ramnet\reporting
+copying src\vxn_ramnet\reporting\__init__.py -> build\lib\vxn_ramnet\reporting
+creating build\lib\vxn_ramnet\schemas
+copying src\vxn_ramnet\schemas\__init__.py -> build\lib\vxn_ramnet\schemas
+creating build\lib\vxn_ramnet\vision
+copying src\vxn_ramnet\vision\encode.py -> build\lib\vxn_ramnet\vision
+copying src\vxn_ramnet\vision\preprocessing.py -> build\lib\vxn_ramnet\vision
+copying src\vxn_ramnet\vision\__init__.py -> build\lib\vxn_ramnet\vision
+creating build\lib\vxn_ramnet\vision\encoders
+copying src\vxn_ramnet\vision\encoders\base.py -> build\lib\vxn_ramnet\vision\encoders
+copying src\vxn_ramnet\vision\encoders\efficientnet.py -> build\lib\vxn_ramnet\vision\encoders
+copying src\vxn_ramnet\vision\encoders\__init__.py -> build\lib\vxn_ramnet\vision\encoders
+running egg_info
+writing src\vxn_ramnet.egg-info\PKG-INFO
+writing dependency_links to src\vxn_ramnet.egg-info\dependency_links.txt
+writing entry points to src\vxn_ramnet.egg-info\entry_points.txt
+writing requirements to src\vxn_ramnet.egg-info\requires.txt
+writing top-level names to src\vxn_ramnet.egg-info\top_level.txt
+reading manifest file 'src\vxn_ramnet.egg-info\SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE'
+writing manifest file 'src\vxn_ramnet.egg-info\SOURCES.txt'
+copying src\vxn_ramnet\py.typed -> build\lib\vxn_ramnet
+copying src\vxn_ramnet\schemas\benchmark-report.schema.json -> build\lib\vxn_ramnet\schemas
+copying src\vxn_ramnet\schemas\route-memory-metadata.schema.json -> build\lib\vxn_ramnet\schemas
+copying src\vxn_ramnet\schemas\run-summary.schema.json -> build\lib\vxn_ramnet\schemas
+installing to build\bdist.win-amd64\wheel
+running install
+running install_lib
+creating build\bdist.win-amd64\wheel
+creating build\bdist.win-amd64\wheel\vxn_ramnet
+creating build\bdist.win-amd64\wheel\vxn_ramnet\algorithms
+copying build\lib\vxn_ramnet\algorithms\decision.py -> build\bdist.win-amd64\wheel\.\vxn_ramnet\algorithms
+copying build\lib\vxn_ramnet\algorithms\junction.py -> build\bdist.win-amd64\wheel\.\vxn_ramnet\algorithms
+copying build\lib\vxn_ramnet\algorithms\scoring.py -> build\bdist.win-amd64\wheel\.\vxn_ramnet\algorithms
+copying build\lib\vxn_ramnet\algorithms\segmentation.py -> build\bdist.win-amd64\wheel\.\vxn_ramnet\algorithms
+copying build\lib\vxn_ramnet\algorithms\similarity.py -> build\bdist.win-amd64\wheel\.\vxn_ramnet\algorithms
+copying build\lib\vxn_ramnet\algorithms\turnaround.py -> build\bdist.win-amd64\wheel\.\vxn_ramnet\algorithms
+copying build\lib\vxn_ramnet\algorithms\__init__.py -> build\bdist.win-amd64\wheel\.\vxn_ramnet\algorithms
+copying build\lib\vxn_ramnet\cli.py -> build\bdist.win-amd64\wheel\.\vxn_ramnet
+creating build\bdist.win-amd64\wheel\vxn_ramnet\config
+copying build\lib\vxn_ramnet\config\loader.py -> build\bdist.win-amd64\wheel\.\vxn_ramnet\config
+copying build\lib\vxn_ramnet\config\models.py -> build\bdist.win-amd64\wheel\.\vxn_ramnet\config
+copying build\lib\vxn_ramnet\config\__init__.py -> build\bdist.win-amd64\wheel\.\vxn_ramnet\config
+creating build\bdist.win-amd64\wheel\vxn_ramnet\core
+copying build\lib\vxn_ramnet\core\enums.py -> build\bdist.win-amd64\wheel\.\vxn_ramnet\core
+copying build\lib\vxn_ramnet\core\exceptions.py -> build\bdist.win-amd64\wheel\.\vxn_ramnet\core
+copying build\lib\vxn_ramnet\core\types.py -> build\bdist.win-amd64\wheel\.\vxn_ramnet\core
+copying build\lib\vxn_ramnet\core\version.py -> build\bdist.win-amd64\wheel\.\vxn_ramnet\core
+copying build\lib\vxn_ramnet\core\__init__.py -> build\bdist.win-amd64\wheel\.\vxn_ramnet\core
+creating build\bdist.win-amd64\wheel\vxn_ramnet\evaluation
+copying build\lib\vxn_ramnet\evaluation\baselines.py -> build\bdist.win-amd64\wheel\.\vxn_ramnet\evaluation
+copying build\lib\vxn_ramnet\evaluation\manifest.py -> build\bdist.win-amd64\wheel\.\vxn_ramnet\evaluation
+copying build\lib\vxn_ramnet\evaluation\metrics.py -> build\bdist.win-amd64\wheel\.\vxn_ramnet\evaluation
+copying build\lib\vxn_ramnet\evaluation\runner.py -> build\bdist.win-amd64\wheel\.\vxn_ramnet\evaluation
+copying build\lib\vxn_ramnet\evaluation\synthetic.py -> build\bdist.win-amd64\wheel\.\vxn_ramnet\evaluation
+copying build\lib\vxn_ramnet\evaluation\__init__.py -> build\bdist.win-amd64\wheel\.\vxn_ramnet\evaluation
+creating build\bdist.win-amd64\wheel\vxn_ramnet\io
+copying build\lib\vxn_ramnet\io\atomic.py -> build\bdist.win-amd64\wheel\.\vxn_ramnet\io
+copying build\lib\vxn_ramnet\io\checksums.py -> build\bdist.win-amd64\wheel\.\vxn_ramnet\io
+copying build\lib\vxn_ramnet\io\json.py -> build\bdist.win-amd64\wheel\.\vxn_ramnet\io
+copying build\lib\vxn_ramnet\io\npz.py -> build\bdist.win-amd64\wheel\.\vxn_ramnet\io
+copying build\lib\vxn_ramnet\io\paths.py -> build\bdist.win-amd64\wheel\.\vxn_ramnet\io
+copying build\lib\vxn_ramnet\io\schema.py -> build\bdist.win-amd64\wheel\.\vxn_ramnet\io
+copying build\lib\vxn_ramnet\io\video.py -> build\bdist.win-amd64\wheel\.\vxn_ramnet\io
+copying build\lib\vxn_ramnet\io\__init__.py -> build\bdist.win-amd64\wheel\.\vxn_ramnet\io
+creating build\bdist.win-amd64\wheel\vxn_ramnet\memory
+copying build\lib\vxn_ramnet\memory\schema.py -> build\bdist.win-amd64\wheel\.\vxn_ramnet\memory
+copying build\lib\vxn_ramnet\memory\store.py -> build\bdist.win-amd64\wheel\.\vxn_ramnet\memory
+copying build\lib\vxn_ramnet\memory\__init__.py -> build\bdist.win-amd64\wheel\.\vxn_ramnet\memory
+creating build\bdist.win-amd64\wheel\vxn_ramnet\observability
+copying build\lib\vxn_ramnet\observability\logging.py -> build\bdist.win-amd64\wheel\.\vxn_ramnet\observability
+copying build\lib\vxn_ramnet\observability\manifest.py -> build\bdist.win-amd64\wheel\.\vxn_ramnet\observability
+copying build\lib\vxn_ramnet\observability\provenance.py -> build\bdist.win-amd64\wheel\.\vxn_ramnet\observability
+copying build\lib\vxn_ramnet\observability\__init__.py -> build\bdist.win-amd64\wheel\.\vxn_ramnet\observability
+creating build\bdist.win-amd64\wheel\vxn_ramnet\pipeline
+copying build\lib\vxn_ramnet\pipeline\artifacts.py -> build\bdist.win-amd64\wheel\.\vxn_ramnet\pipeline
+copying build\lib\vxn_ramnet\pipeline\runner.py -> build\bdist.win-amd64\wheel\.\vxn_ramnet\pipeline
+copying build\lib\vxn_ramnet\pipeline\serialization.py -> build\bdist.win-amd64\wheel\.\vxn_ramnet\pipeline
+copying build\lib\vxn_ramnet\pipeline\__init__.py -> build\bdist.win-amd64\wheel\.\vxn_ramnet\pipeline
+copying build\lib\vxn_ramnet\py.typed -> build\bdist.win-amd64\wheel\.\vxn_ramnet
+copying build\lib\vxn_ramnet\recognition.py -> build\bdist.win-amd64\wheel\.\vxn_ramnet
+creating build\bdist.win-amd64\wheel\vxn_ramnet\reporting
+copying build\lib\vxn_ramnet\reporting\sanitize.py -> build\bdist.win-amd64\wheel\.\vxn_ramnet\reporting
+copying build\lib\vxn_ramnet\reporting\writers.py -> build\bdist.win-amd64\wheel\.\vxn_ramnet\reporting
+copying build\lib\vxn_ramnet\reporting\__init__.py -> build\bdist.win-amd64\wheel\.\vxn_ramnet\reporting
+creating build\bdist.win-amd64\wheel\vxn_ramnet\schemas
+copying build\lib\vxn_ramnet\schemas\benchmark-report.schema.json -> build\bdist.win-amd64\wheel\.\vxn_ramnet\schemas
+copying build\lib\vxn_ramnet\schemas\route-memory-metadata.schema.json -> build\bdist.win-amd64\wheel\.\vxn_ramnet\schemas
+copying build\lib\vxn_ramnet\schemas\run-summary.schema.json -> build\bdist.win-amd64\wheel\.\vxn_ramnet\schemas
+copying build\lib\vxn_ramnet\schemas\__init__.py -> build\bdist.win-amd64\wheel\.\vxn_ramnet\schemas
+creating build\bdist.win-amd64\wheel\vxn_ramnet\vision
+copying build\lib\vxn_ramnet\vision\encode.py -> build\bdist.win-amd64\wheel\.\vxn_ramnet\vision
+creating build\bdist.win-amd64\wheel\vxn_ramnet\vision\encoders
+copying build\lib\vxn_ramnet\vision\encoders\base.py -> build\bdist.win-amd64\wheel\.\vxn_ramnet\vision\encoders
+copying build\lib\vxn_ramnet\vision\encoders\efficientnet.py -> build\bdist.win-amd64\wheel\.\vxn_ramnet\vision\encoders
+copying build\lib\vxn_ramnet\vision\encoders\__init__.py -> build\bdist.win-amd64\wheel\.\vxn_ramnet\vision\encoders
+copying build\lib\vxn_ramnet\vision\preprocessing.py -> build\bdist.win-amd64\wheel\.\vxn_ramnet\vision
+copying build\lib\vxn_ramnet\vision\__init__.py -> build\bdist.win-amd64\wheel\.\vxn_ramnet\vision
+copying build\lib\vxn_ramnet\__init__.py -> build\bdist.win-amd64\wheel\.\vxn_ramnet
+copying build\lib\vxn_ramnet\__main__.py -> build\bdist.win-amd64\wheel\.\vxn_ramnet
+running install_egg_info
+Copying src\vxn_ramnet.egg-info to build\bdist.win-amd64\wheel\.\vxn_ramnet-0.4.0-py3.12.egg-info
+running install_scripts
+creating build\bdist.win-amd64\wheel\vxn_ramnet-0.4.0.dist-info\WHEEL
+creating 'C:\\Users\\progr\\OneDrive\\Desktop\\SIH-VisionX\\final\\VXN-RAMNet\\dist\\.tmp-p32q6t47\\vxn_ramnet-0.4.0-py3-none-any.whl' and adding 'build\\bdist.win-amd64\\wheel' to it
+adding 'vxn_ramnet/__init__.py'
+adding 'vxn_ramnet/__main__.py'
+adding 'vxn_ramnet/cli.py'
+adding 'vxn_ramnet/py.typed'
+adding 'vxn_ramnet/recognition.py'
+adding 'vxn_ramnet/algorithms/__init__.py'
+adding 'vxn_ramnet/algorithms/decision.py'
+adding 'vxn_ramnet/algorithms/junction.py'
+adding 'vxn_ramnet/algorithms/scoring.py'
+adding 'vxn_ramnet/algorithms/segmentation.py'
+adding 'vxn_ramnet/algorithms/similarity.py'
+adding 'vxn_ramnet/algorithms/turnaround.py'
+adding 'vxn_ramnet/config/__init__.py'
+adding 'vxn_ramnet/config/loader.py'
+adding 'vxn_ramnet/config/models.py'
+adding 'vxn_ramnet/core/__init__.py'
+adding 'vxn_ramnet/core/enums.py'
+adding 'vxn_ramnet/core/exceptions.py'
+adding 'vxn_ramnet/core/types.py'
+adding 'vxn_ramnet/core/version.py'
+adding 'vxn_ramnet/evaluation/__init__.py'
+adding 'vxn_ramnet/evaluation/baselines.py'
+adding 'vxn_ramnet/evaluation/manifest.py'
+adding 'vxn_ramnet/evaluation/metrics.py'
+adding 'vxn_ramnet/evaluation/runner.py'
+adding 'vxn_ramnet/evaluation/synthetic.py'
+adding 'vxn_ramnet/io/__init__.py'
+adding 'vxn_ramnet/io/atomic.py'
+adding 'vxn_ramnet/io/checksums.py'
+adding 'vxn_ramnet/io/json.py'
+adding 'vxn_ramnet/io/npz.py'
+adding 'vxn_ramnet/io/paths.py'
+adding 'vxn_ramnet/io/schema.py'
+adding 'vxn_ramnet/io/video.py'
+adding 'vxn_ramnet/memory/__init__.py'
+adding 'vxn_ramnet/memory/schema.py'
+adding 'vxn_ramnet/memory/store.py'
+adding 'vxn_ramnet/observability/__init__.py'
+adding 'vxn_ramnet/observability/logging.py'
+adding 'vxn_ramnet/observability/manifest.py'
+adding 'vxn_ramnet/observability/provenance.py'
+adding 'vxn_ramnet/pipeline/__init__.py'
+adding 'vxn_ramnet/pipeline/artifacts.py'
+adding 'vxn_ramnet/pipeline/runner.py'
+adding 'vxn_ramnet/pipeline/serialization.py'
+adding 'vxn_ramnet/reporting/__init__.py'
+adding 'vxn_ramnet/reporting/sanitize.py'
+adding 'vxn_ramnet/reporting/writers.py'
+adding 'vxn_ramnet/schemas/__init__.py'
+adding 'vxn_ramnet/schemas/benchmark-report.schema.json'
+adding 'vxn_ramnet/schemas/route-memory-metadata.schema.json'
+adding 'vxn_ramnet/schemas/run-summary.schema.json'
+adding 'vxn_ramnet/vision/__init__.py'
+adding 'vxn_ramnet/vision/encode.py'
+adding 'vxn_ramnet/vision/preprocessing.py'
+adding 'vxn_ramnet/vision/encoders/__init__.py'
+adding 'vxn_ramnet/vision/encoders/base.py'
+adding 'vxn_ramnet/vision/encoders/efficientnet.py'
+adding 'vxn_ramnet-0.4.0.dist-info/licenses/LICENSE'
+adding 'vxn_ramnet-0.4.0.dist-info/METADATA'
+adding 'vxn_ramnet-0.4.0.dist-info/WHEEL'
+adding 'vxn_ramnet-0.4.0.dist-info/entry_points.txt'
+adding 'vxn_ramnet-0.4.0.dist-info/top_level.txt'
+adding 'vxn_ramnet-0.4.0.dist-info/RECORD'
+removing build\bdist.win-amd64\wheel
+Successfully built vxn_ramnet-0.4.0.tar.gz and vxn_ramnet-0.4.0-py3-none-any.whl
+* Creating isolated environment: venv+pip...
+* Installing packages in isolated environment:
+  - setuptools>=77
+  - wheel>=0.44
+* Getting build dependencies for sdist...
+warning: no files found matching '*.png' under directory 'assets'
+warning: no previously-included files matching '__pycache__' found anywhere in distribution
+warning: no previously-included files matching '*.pyc' found anywhere in distribution
+warning: no previously-included files matching '*.pyo' found anywhere in distribution
+* Installed build dependency versions:
+  - setuptools==84.0.0
+  - wheel==0.48.0
+* Building sdist...
+warning: no files found matching '*.png' under directory 'assets'
+warning: no previously-included files matching '__pycache__' found anywhere in distribution
+warning: no previously-included files matching '*.pyc' found anywhere in distribution
+warning: no previously-included files matching '*.pyo' found anywhere in distribution
+* Building wheel from sdist
+* Creating isolated environment: venv+pip...
+* Installing packages in isolated environment:
+  - setuptools>=77
+  - wheel>=0.44
+* Getting build dependencies for wheel...
+warning: no files found matching '*.png' under directory 'assets'
+warning: no previously-included files matching '__pycache__' found anywhere in distribution
+warning: no previously-included files matching '*.pyc' found anywhere in distribution
+warning: no previously-included files matching '*.pyo' found anywhere in distribution
+* Installed build dependency versions:
+  - setuptools==84.0.0
+  - wheel==0.48.0
+* Building wheel...
+warning: no files found matching '*.png' under directory 'assets'
+warning: no previously-included files matching '__pycache__' found anywhere in distribution
+warning: no previously-included files matching '*.pyc' found anywhere in distribution
+warning: no previously-included files matching '*.pyo' found anywhere in distribution
