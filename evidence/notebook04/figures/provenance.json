@@ -1,6 +1,0 @@
-{
-  "matplotlib": "3.11.2",
-  "report_sha256": "b699fabeb13184380fc3f4a7e57cd309dec3c508c755b417ddd77ac5cb32243b",
-  "plot_script_sha256": "675839b3ad482c4885c886495b0e967b9e80f62da742c126900d75f487c2a572",
-  "scope": "regression"
-}
